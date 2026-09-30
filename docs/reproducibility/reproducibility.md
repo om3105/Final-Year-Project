@@ -1,0 +1,7 @@
+# Reproducibility protocol
+
+Before the first real-data run, pin Python and package versions in an environment lock, record OS/CUDA/driver and hardware, and store immutable experiment configs. The research catalog currently records paper metadata; it is not a training dependency lock. Use fixed seeds 17/29/41, log deterministic flags, and report unavoidable nondeterminism.
+
+For each run, record dataset name, approved access holder, release/download date, scan selection/QC, inclusion/exclusion flow, private split-manifest hash, label definition, feature dictionary and measurement cutoff, preprocessing configuration, imputer/scaler fit partition, model/checkpoint hash, pretrained weights and license, augmentation, optimizer/schedule, batch size, epochs, early-stop criterion, class weights, metric code version, calibration fit and test date. Experiment records in Git contain only aggregate values; participant-level manifests stay in access-controlled storage.
+
+Run the locked test evaluation from a frozen checkpoint and config. Save per-class metrics, patient-bootstrap confidence intervals, calibration plots, memory and latency profiles. Re-run cross-dataset analyses only when labels and DUA permissions are matched. Failed or null experiments remain in the run ledger to prevent selective reporting. `experiments/results/` will contain templates and aggregate outputs after implementation; no results exist yet.

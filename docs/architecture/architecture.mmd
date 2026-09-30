@@ -1,0 +1,8 @@
+flowchart LR
+  MRI[T1 MRI] --> IMG[QC and image encoder]
+  CLIN[Time-valid clinical fields] --> TAB[Clinical preprocessing and encoder]
+  IMG --> FUSION[Concatenation baseline / masked cross-attention candidate]
+  TAB --> FUSION
+  FUSION --> OPTIONAL[Optional multimodal Transformer]
+  OPTIONAL --> HEAD[Classification and calibration]
+  HEAD --> OUT[Research-only probabilities and explanations]

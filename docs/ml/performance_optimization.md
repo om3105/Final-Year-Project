@@ -1,0 +1,7 @@
+# Performance and efficiency plan
+
+Measure the whole path: upload transfer, file validation, DICOM/NIfTI decode, orientation/resampling, clinical transforms, checkpoint load, model forward pass, attribution and response serialization. Report cold and warm latency separately, peak resident RAM and GPU memory, model file size, trainable parameter count, FLOPs if reliable, and throughput at batch 1 and a small batch. These numbers are **not yet known** for the proposed system.
+
+Optimization order: (1) use a smaller/pretrained encoder and 2D/2.5D or cropped 3D protocol only if scientifically defensible; (2) cache one loaded model per worker; (3) remove redundant branches; (4) evaluate mixed precision on supported GPU; (5) test post-training dynamic/static quantization only after checking class metrics, calibration and attribution; (6) use asynchronous jobs for slow explanations. Method papers `[38]`–`[45]` provide candidates, not transferred guarantees.
+
+Free Render has 0.1 CPU/512 MB and is unlikely to host a large MRI Transformer. A free CPU Space advertises 2 vCPU/16 GB but currently has an eligibility caveat for compute Spaces; provisionability must be tested before an API design is committed. If no suitable free service exists, the demo may use a small CPU model or recorded synthetic-case outputs clearly labeled as a demonstration. No real patient uploads go to a public free host without dataset and privacy authorization. Define numeric latency/size targets **after** a real checkpoint and host are profiled.

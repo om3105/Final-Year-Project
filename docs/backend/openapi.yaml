@@ -1,0 +1,79 @@
+openapi: 3.1.0
+info:
+  title: Research MRI and Clinical Prediction API
+  version: 0.1.0-draft
+  description: Planned academic prototype API; no implementation exists.
+servers:
+  - url: https://example.invalid
+paths:
+  /api/health:
+    get:
+      summary: Service and model readiness
+      responses:
+        '200': {description: Ready or degraded status}
+        '503': {description: Unavailable}
+  /api/model:
+    get:
+      summary: Public model card metadata
+      responses:
+        '200': {description: Model metadata}
+        '503': {description: Unavailable}
+  /api/analyze:
+    post:
+      summary: Research-only paired MRI and clinical analysis
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [mri, clinical]
+              properties:
+                mri: {type: string, format: binary}
+                clinical: {type: string, description: JSON encoded validated clinical object}
+      responses:
+        '200':
+          description: AI-assisted research prediction
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [model_version, probabilities, disclaimer]
+                properties:
+                  model_version: {type: string}
+                  probabilities: {type: object, additionalProperties: {type: number, minimum: 0, maximum: 1}}
+                  abstained: {type: boolean}
+                  disclaimer: {type: string, const: Research prototype; not a medical diagnosis.}
+        '400': {description: Malformed request}
+        '413': {description: File too large}
+        '415': {description: Unsupported file type}
+        '422': {description: Invalid scan or clinical schema}
+        '429': {description: Rate limited}
+        '503': {description: Model unavailable}
+        '504': {description: Inference timed out}
+  /api/explain:
+    post:
+      summary: Retrieve a method-dependent research attribution
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [analysis_token, target_class]
+              properties:
+                analysis_token: {type: string}
+                target_class: {type: string}
+      responses:
+        '200': {description: Attribution and method limitations}
+        '404': {description: Expired analysis token}
+        '422': {description: Explanation unsupported}
+        '503': {description: Unavailable}
+        '504': {description: Timed out}
+  /api/history:
+    get:
+      summary: Disabled by default until authorized retention design exists
+      responses:
+        '200': {description: Disabled status and empty items}
+        '401': {description: Authentication needed if later enabled}
+        '403': {description: Not authorized}

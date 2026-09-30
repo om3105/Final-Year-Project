@@ -1,0 +1,374 @@
+{
+  "P002": null,
+  "P001": {
+    "doi": "10.3389/frai.2026.1849315",
+    "error": "HTTP Error 429: Too Many Requests",
+    "url": "https://api.crossref.org/works/10.3389%2Ffrai.2026.1849315"
+  },
+  "P003": {
+    "doi": "10.13209/j.0479-8023.2024.121",
+    "error": "HTTP Error 404: Not Found",
+    "url": "https://api.crossref.org/works/10.13209%2Fj.0479-8023.2024.121"
+  },
+  "P004": {
+    "doi": "10.1016/j.compbiomed.2024.108979",
+    "crossref_title": "A transformer-based unified multimodal framework for Alzheimer's disease assessment",
+    "publisher": "Elsevier BV",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1016%2Fj.compbiomed.2024.108979",
+    "type": "journal-article"
+  },
+  "P005": {
+    "doi": "10.1038/s41598-025-28221-0",
+    "crossref_title": "Alzheimer disease predicting from clinical and MRI data using DeepALZNET dual pathway framework",
+    "publisher": "Springer Science and Business Media LLC",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1038%2Fs41598-025-28221-0",
+    "type": "journal-article"
+  },
+  "P007": {
+    "doi": "10.3390/diagnostics16040593",
+    "crossref_title": "Progression-Aware and Explainable CNN–Transformer Framework for Multiclass Alzheimer’s Disease Staging Using MRI",
+    "publisher": "MDPI AG",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3390%2Fdiagnostics16040593",
+    "type": "journal-article"
+  },
+  "P008": {
+    "doi": "10.1038/s41598-025-28243-8",
+    "crossref_title": "Lightweight Vision Transformer with transfer learning for interpretable Alzheimer’s disease severity assessment",
+    "publisher": "Springer Science and Business Media LLC",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1038%2Fs41598-025-28243-8",
+    "type": "journal-article"
+  },
+  "P006": {
+    "doi": "10.2196/85414",
+    "crossref_title": "Multimodal AI for Alzheimer Disease Diagnosis: Systematic Review of Datasets, Models, and Modalities",
+    "publisher": "JMIR Publications Inc.",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.2196%2F85414",
+    "type": "journal-article"
+  },
+  "P009": {
+    "doi": "10.1093/bib/bbag224",
+    "crossref_title": "Development of a novel multimodal deep learning approach to improve diagnostic precision in ovarian cancer",
+    "publisher": "Oxford University Press (OUP)",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1093%2Fbib%2Fbbag224",
+    "type": "journal-article"
+  },
+  "P011": {
+    "doi": "10.1038/s43856-025-01334-3",
+    "error": "HTTP Error 429: Too Many Requests",
+    "url": "https://api.crossref.org/works/10.1038%2Fs43856-025-01334-3"
+  },
+  "P010": {
+    "doi": "10.1186/s12938-024-01204-4",
+    "crossref_title": "Multimodal diagnosis model of Alzheimer’s disease based on improved Transformer",
+    "publisher": "Springer Science and Business Media LLC",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1186%2Fs12938-024-01204-4",
+    "type": "journal-article"
+  },
+  "P012": {
+    "doi": "10.3389/fnins.2026.1852056",
+    "crossref_title": "Integrating anatomical priors and clinical semantics for MRI-based diagnosis and care support in Alzheimer's disease",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffnins.2026.1852056",
+    "type": "journal-article"
+  },
+  "P013": {
+    "doi": "10.3389/fnagi.2026.1876233",
+    "crossref_title": "Interpretable machine learning model based on multimodal MRI radiomics for Alzheimer's disease diagnosis",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffnagi.2026.1876233",
+    "type": "journal-article"
+  },
+  "P014": {
+    "doi": "10.3389/frai.2026.1707043",
+    "crossref_title": "Review of deep learning models for Alzheimer’s disease detection: MRI-centric approaches and multimodal extensions",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffrai.2026.1707043",
+    "type": "journal-article"
+  },
+  "P015": {
+    "doi": "10.1093/psyrad/kkag007",
+    "crossref_title": "Multimodal neuroimaging and AI integration in cognitive disorders: advances, challenges, and future directions for precision medicine",
+    "publisher": "Oxford University Press (OUP)",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1093%2Fpsyrad%2Fkkag007",
+    "type": "journal-article"
+  },
+  "P016": {
+    "doi": "10.3389/fnagi.2025.1650629",
+    "crossref_title": "Combinations of multimodal neuroimaging biomarkers and cognitive test scores to identify patients with cognitive impairment",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffnagi.2025.1650629",
+    "type": "journal-article"
+  },
+  "P017": {
+    "doi": "10.3389/fnimg.2026.1726037",
+    "crossref_title": "Deep learning to predict future cognitive decline: a multimodal approach using brain MRI and clinical data",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffnimg.2026.1726037",
+    "type": "journal-article"
+  },
+  "P018": {
+    "doi": "10.3389/frai.2026.1748985",
+    "crossref_title": "Artificial intelligence techniques for classification of Alzheimer's disease using neuroimaging data: a review",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffrai.2026.1748985",
+    "type": "journal-article"
+  },
+  "P019": {
+    "doi": "10.1016/j.jarlif.2025.100040",
+    "crossref_title": "Predicting dementia risk using neuroimaging and cognitive assessment",
+    "publisher": "Elsevier BV",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1016%2Fj.jarlif.2025.100040",
+    "type": "journal-article"
+  },
+  "P021": {
+    "doi": "10.3389/fneur.2026.1839071",
+    "crossref_title": "Multi-modal deep learning and explainable AI for predicting multiple dementia-related neuropathologies from brain MRI, clinical, and genetic data",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffneur.2026.1839071",
+    "type": "journal-article"
+  },
+  "P020": {
+    "doi": "10.1088/1741-2552/ae087d",
+    "crossref_title": "An interpretable generative multimodal neuroimaging-genomics framework for decoding Alzheimer’s disease",
+    "publisher": "IOP Publishing",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1088%2F1741-2552%2Fae087d",
+    "type": "journal-article"
+  },
+  "P022": {
+    "doi": "10.3389/fnins.2025.1637291",
+    "crossref_title": "A lightweight triple-modal fusion network for progressive mild cognitive impairment prediction in Alzheimer's disease",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffnins.2025.1637291",
+    "type": "journal-article"
+  },
+  "P024": {
+    "doi": "10.1007/s12031-026-02474-4",
+    "crossref_title": "Resolving Heterogeneity in the Diagnosis of Alzheimer’s Disease and its Progression Using Multimodal Data",
+    "publisher": "Springer Science and Business Media LLC",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1007%2Fs12031-026-02474-4",
+    "type": "journal-article"
+  },
+  "P023": {
+    "doi": "10.3389/fnins.2025.1638022",
+    "crossref_title": "Multi-model deep learning for dementia detection: addressing data and model limitations",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffnins.2025.1638022",
+    "type": "journal-article"
+  },
+  "P025": {
+    "doi": "10.3389/fneur.2025.1596632",
+    "crossref_title": "Research progress in predicting the conversion from mild cognitive impairment to Alzheimer’s disease via multimodal MRI and artificial intelligence",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffneur.2025.1596632",
+    "type": "journal-article"
+  },
+  "P028": {
+    "doi": "10.3389/fnins.2025.1554015",
+    "error": "HTTP Error 429: Too Many Requests",
+    "url": "https://api.crossref.org/works/10.3389%2Ffnins.2025.1554015"
+  },
+  "P027": {
+    "doi": "10.3390/bioengineering12101107",
+    "crossref_title": "NeuroNet-AD: A Multimodal Deep Learning Framework for Multiclass Alzheimer’s Disease Diagnosis",
+    "publisher": "MDPI AG",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3390%2Fbioengineering12101107",
+    "type": "journal-article"
+  },
+  "P026": {
+    "doi": "10.3389/fnimg.2026.1746464",
+    "crossref_title": "A systematic study on the integration of MRI connectivity metrics for Alzheimer's diagnosis, staging, and cognitive decline prediction",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffnimg.2026.1746464",
+    "type": "journal-article"
+  },
+  "P029": {
+    "doi": "10.1016/j.heliyon.2024.e36728",
+    "crossref_title": "Prediction of future dementia among patients with mild cognitive impairment (MCI) by integrating multimodal clinical data",
+    "publisher": "Elsevier BV",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1016%2Fj.heliyon.2024.e36728",
+    "type": "journal-article"
+  },
+  "P032": {
+    "doi": "10.3390/jcm15093441",
+    "error": "HTTP Error 429: Too Many Requests",
+    "url": "https://api.crossref.org/works/10.3390%2Fjcm15093441"
+  },
+  "P030": {
+    "doi": "10.1002/dad2.12578",
+    "crossref_title": "Prediction of dementia risk from multimodal repeated measures: The added value of brain MRI biomarkers",
+    "publisher": "Wiley",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1002%2Fdad2.12578",
+    "type": "journal-article"
+  },
+  "P031": {
+    "doi": "10.3389/fmed.2024.1450103",
+    "crossref_title": "Histopathology in focus: a review on explainable multi-modal approaches for breast cancer diagnosis",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffmed.2024.1450103",
+    "type": "journal-article"
+  },
+  "P033": {
+    "doi": "10.3390/bioengineering12080845",
+    "crossref_title": "The Effect of Data Leakage and Feature Selection on Machine Learning Performance for Early Parkinson’s Disease Detection",
+    "publisher": "MDPI AG",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3390%2Fbioengineering12080845",
+    "type": "journal-article"
+  },
+  "P034": {
+    "doi": "10.3389/fradi.2025.1701110",
+    "crossref_title": "Robust radiomics: a review of guidelines for radiomics in medical imaging",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffradi.2025.1701110",
+    "type": "journal-article"
+  },
+  "P035": {
+    "doi": "10.1001/jamanetworkopen.2025.50454",
+    "crossref_title": "Diagnostic Codes in AI Prediction Models and Label Leakage of Same-Admission Clinical Outcomes",
+    "publisher": "American Medical Association (AMA)",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1001%2Fjamanetworkopen.2025.50454",
+    "type": "journal-article"
+  },
+  "P037": {
+    "doi": "10.3390/diagnostics16050666",
+    "error": "HTTP Error 429: Too Many Requests",
+    "url": "https://api.crossref.org/works/10.3390%2Fdiagnostics16050666"
+  },
+  "P036": {
+    "doi": "10.3389/fdgth.2026.1884692",
+    "crossref_title": "Responsible artificial intelligence in medical imaging: a systematic review",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffdgth.2026.1884692",
+    "type": "journal-article"
+  },
+  "P038": {
+    "doi": "10.3390/jimaging12080344",
+    "error": "HTTP Error 429: Too Many Requests",
+    "url": "https://api.crossref.org/works/10.3390%2Fjimaging12080344"
+  },
+  "P039": {
+    "doi": "10.3389/frai.2026.1771088",
+    "crossref_title": "Few-shot deployment of pretrained MRI transformers in brain imaging tasks",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffrai.2026.1771088",
+    "type": "journal-article"
+  },
+  "P040": {
+    "doi": "10.1371/journal.pone.0346875",
+    "crossref_title": "CMAP-Fusion: A cross-modal feature selection and model pruning framework for laboratory and imaging data",
+    "publisher": "Public Library of Science (PLoS)",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0346875",
+    "type": "journal-article"
+  },
+  "P041": {
+    "doi": "10.1038/s41598-025-23100-0",
+    "crossref_title": "Hierarchical multi-scale vision transformer model for accurate detection and classification of brain tumors in MRI-based medical imaging",
+    "publisher": "Springer Science and Business Media LLC",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1038%2Fs41598-025-23100-0",
+    "type": "journal-article"
+  },
+  "P044": {
+    "doi": "10.1117/1.jmi.13.1.014006",
+    "crossref_title": "MedPTQ: a practical pipeline for real post-training quantization in 3D medical image segmentation",
+    "publisher": "SPIE-Intl Soc Optical Eng",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1117%2F1.jmi.13.1.014006",
+    "type": "journal-article"
+  },
+  "P042": {
+    "doi": "10.3389/fdata.2025.1700292",
+    "crossref_title": "Improving early liver metastasis detection in colorectal cancer using a weighted ensemble of ResNet50 and swin transformer: a KHCC study",
+    "publisher": "Frontiers Media SA",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3389%2Ffdata.2025.1700292",
+    "type": "journal-article"
+  },
+  "P043": {
+    "doi": "10.1038/s41598-025-31967-2",
+    "crossref_title": "Optimized federated learning framework with RegNetZ and Swin-Transformer for multimodal pancreatic cancer detection1",
+    "publisher": "Springer Science and Business Media LLC",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1038%2Fs41598-025-31967-2",
+    "type": "journal-article"
+  },
+  "P045": {
+    "doi": "10.1371/journal.pone.0323239",
+    "crossref_title": "An optimized transformer model for efficient detection of thoracic diseases in chest X-rays with multi-scale feature fusion",
+    "publisher": "Public Library of Science (PLoS)",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0323239",
+    "type": "journal-article"
+  },
+  "P046": {
+    "doi": "10.3390/tomography10120146",
+    "crossref_title": "BAE-ViT: An Efficient Multimodal Vision Transformer for Bone Age Estimation",
+    "publisher": "MDPI AG",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.3390%2Ftomography10120146",
+    "type": "journal-article"
+  },
+  "P047": {
+    "doi": "10.1038/s41598-025-92156-9",
+    "crossref_title": "Rethinking model prototyping through the MedMNIST+ dataset collection",
+    "publisher": "Springer Science and Business Media LLC",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1038%2Fs41598-025-92156-9",
+    "type": "journal-article"
+  },
+  "P048": {
+    "doi": "10.1038/s41598-024-52703-2",
+    "crossref_title": "Efficient pneumonia detection using Vision Transformers on chest X-rays",
+    "publisher": "Springer Science and Business Media LLC",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1038%2Fs41598-024-52703-2",
+    "type": "journal-article"
+  },
+  "P049": {
+    "doi": "10.1186/s41747-023-00411-3",
+    "crossref_title": "Enhancing diagnostic deep learning via self-supervised pretraining on large-scale, unlabeled non-medical images",
+    "publisher": "Springer Science and Business Media LLC",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1186%2Fs41747-023-00411-3",
+    "type": "journal-article"
+  },
+  "P050": {
+    "doi": "10.1371/journal.pone.0304943",
+    "crossref_title": "Stitched vision transformer for age-related macular degeneration detection using retinal optical coherence tomography images",
+    "publisher": "Public Library of Science (PLoS)",
+    "title_similarity": 1.0,
+    "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0304943",
+    "type": "journal-article"
+  }
+}

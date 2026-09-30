@@ -1,0 +1,8 @@
+flowchart TD
+  A[Authorized dataset access] --> B[Private manifest: participant, visit, scan, label]
+  B --> C[Patient-level split]
+  C --> D[Train-only fitted preprocessing]
+  D --> E[Experiments and validation]
+  E --> F[Locked patient-level test]
+  F --> G[Aggregate results and checkpoint review]
+  G --> H[Research demo with synthetic inputs only until privacy approval]

@@ -1,0 +1,47 @@
+# Dataset strategy: Alzheimer spectrum MRI and clinical data
+
+**Research decision (30 September 2026):** study one disease family. ADNI is the primary paired MRI and clinical source. OASIS-3 is the preferred independent validation candidate; NACC/SCAN is an alternative if its eligible paired cohort and access terms are more suitable. Dataset selection does **not** establish a usable training cohort: no agreement has been approved, no participant data have been downloaded, and no eligible sample count has been measured. The [cohort and access protocol](dataset_access_and_cohort_protocol.md) defines the next gates.
+
+## Source comparison
+
+Counts below describe source releases, **not** the number of participants meeting this project's T1, clinical, label, timing and quality rules.
+
+| Source | Disease and imaging | Paired clinical information and labels | Published scale | Access and use | Decision |
+|---|---|---|---|---|---|
+| **ADNI** | Cognitive impairment and Alzheimer spectrum; longitudinal structural MRI plus PET and other data | Demographics, medical and cognitive assessments, diagnostic summary | Eligible paired count unknown until authorized query | LONI IDA application and ADNI DUA; participant-level redistribution prohibited; cloud and AI containment require review | **Primary candidate**: rich MRI and clinical linkage, but diagnosis and same-visit assessment leakage need close audit. [ADNI data](https://adni.loni.usc.edu/data-samples/adni-data/), [MRI](https://adni.loni.usc.edu/data-samples/adni-data/neuroimaging/mri/), [DUA](https://adni.loni.usc.edu/wp-content/themes/adni_2023/documents/ADNI_Data_Use_Agreement.pdf). |
+| **OASIS-3** | Aging and Alzheimer spectrum; longitudinal T1 and other MRI, PET | Clinical and cognitive records, including diagnostic data in released CSVs | Approximately 1,378 participants and 2,842 MR sessions in the official summary; eligible paired count unknown | NITRC account, request and OASIS DUA; noncommercial academic use and controlled sharing | **Preferred external validation candidate**, subject to label/time harmonization. [Overview](https://sites.wustl.edu/oasisbrains/), [access](https://sites.wustl.edu/oasisbrains/request-access/), [DUA](https://bpb-us-e2.wpmucdn.com/sites.wustl.edu/dist/6/4383/files/2025/07/Data-Use-Agreement_July2025.pdf). |
+| **NACC with SCAN or mixed-protocol MRI** | Alzheimer and related dementias; structural MRI subset | Longitudinal Uniform Data Set (UDS) clinical, cognitive and etiological diagnosis | NACC advertises 56,000+ participants and 12,000+ with structural MRI; eligible paired count unknown | Free researcher request and named-user DUA; scan-to-UDS visit matching is investigator-defined | **External alternative**. Broader case mix and heterogeneous recruitment make label/protocol harmonization harder. [Request](https://www.naccdata.org/data-request-process/), [guide](https://www.naccdata.org/the-nacc-researchers-guide). |
+| **OASIS-4** | Memory-complaint clinical cohort; MR and biomarker data | Clinical/cognitive records | Official overview: 663 participants; eligible paired count unknown | Separate access request and DUA | Exploratory external alternative; different entry population limits direct comparison. [Overview](https://sites.wustl.edu/oasisbrains/). |
+| **OASIS-1 / OASIS-2** | Smaller cross-sectional / longitudinal MRI sets | Limited clinical fields compared with OASIS-3 | 416 / 150 participants in official overview | Publicly described OASIS releases; check terms before use | Feasible teaching or image-only baseline sources, **not** adequate substitutes for rich independent clinical fusion. OASIS advises against combining OASIS-1, -2 and -3 because of participant overlap. [Overview](https://sites.wustl.edu/oasisbrains/), [FAQ](https://sites.wustl.edu/oasisbrains/home/oasis-resources-and-faq/). |
+| **BraTS** | Brain tumor MRI | Tumor segmentation labels rather than Alzheimer clinical cohort | Not applicable | Challenge terms vary | Exclude: unrelated task. |
+| **MIMIC family** | Hospital records and linked imaging in some modules | Critical-care outcomes rather than paired Alzheimer MRI | Not applicable | Credentialed access | Exclude: unrelated task. |
+
+No listed source is an unrestricted, ready-to-train, paired T1 MRI and independent clinical Alzheimer cohort. A source being free to request does not imply unrestricted cloud processing, redistribution or public inference. The official [OASIS FAQ](https://sites.wustl.edu/oasisbrains/home/oasis-resources-and-faq/) specifically warns against combining OASIS-1, -2 and -3.
+
+The [alternative dataset review](alternative_dataset_decision.md) also examines MIRIAD and public OpenNeuro candidates. MIRIAD is a possible **small binary AD/control pilot after registration**, not a replacement for a three-class MCI study.
+
+## Target label: a necessary correction
+
+ADNI's current [Diagnostic Information guide](https://adni.loni.usc.edu/quick-start-guide-asset101625/diagnostic.html) names `DXSUM` as the primary diagnosis table and defines harmonized `DIAGNOSIS` as **1 = cognitively unimpaired (CU), 2 = MCI, 3 = dementia**. Code 3 alone does **not** assert Alzheimer etiology. For a specifically Alzheimer-associated dementia endpoint, inspect the phase-appropriate `DXAPP`, `DXAPROB`, `DXAPOSS` and related diagnostic criteria, then document inclusion rules. The same guide notes older `DXCURREN` and `DXCHANGE` fields have been translated into `DIAGNOSIS`; legacy coding must not be reused without phase review.
+
+The default **auditable task proposal** is baseline **CU / MCI / dementia classification**. An **AD-etiology sensitivity cohort** may narrow the dementia class after an approved data audit verifies fields, codes and sufficient counts. Do not relabel all dementia cases as AD. A conversion or future-risk task is a separate study requiring a prediction horizon, censoring policy and adequate follow-up; it is not established by this baseline classification plan. Accordingly, “early disease detection” in the project title is a research motivation, not a claim that a prospective early-detection endpoint has been validated.
+
+[ADNI's cohort guide](https://adni.loni.usc.edu/quick-start-guide-asset/cohorts.html) says CDR, MMSE, Logical Memory II and clinician judgment inform cohort diagnosis. Same-visit versions of these assessments are therefore **quarantined from the primary clinical feature set** pending a documented target-proxy analysis. This may leave only a small independent clinical feature set; the clinical Transformer remains a hypothesis to test against simpler tabular baselines, not a guaranteed final encoder. MRI-derived segmentation volumes are imaging derivatives and belong only in a separate ablation.
+
+## Cohort construction, evaluation and privacy
+
+Choose a quality-controlled T1-weighted baseline image and one label reference per participant. Use actual examination and acquisition dates to pair scans and clinical visits; ADNI [visit documentation](https://adni.loni.usc.edu/quick-start-guide-asset/anatomy2.html) explains that visit codes may be phase-specific and multiple dates can share a code. Predeclare a maximum window and direction before seeing outcome performance. In OASIS-3, sessions are indexed by [days from study entry](https://sites.wustl.edu/oasisbrains/home/oasis-resources-and-faq/); in NACC, the [researcher guide](https://www.naccdata.org/the-nacc-researchers-guide) says imaging is not automatically bound to a UDS visit. The exact pairing rules and missingness report are specified in the [cohort protocol](dataset_access_and_cohort_protocol.md).
+
+Split participants before image preprocessing, tabular imputation, feature selection or augmentation. The locked ADNI test set estimates within-source performance. OASIS-3 or NACC is an **external test** only if population, task, input availability and labels can be harmonized without tuning to its outcomes. Report an inclusion flow, scan versions, class counts, missingness, age/sex/site distributions and date-gap distributions. See [leakage protocol](../research/data_leakage_and_validation.md).
+
+The [ADNI DUA](https://adni.loni.usc.edu/wp-content/themes/adni_2023/documents/ADNI_Data_Use_Agreement.pdf) does not ban all AI analysis: it requires containment of data inputs and warns about third-party cloud services and public weights. The [OASIS DUA](https://bpb-us-e2.wpmucdn.com/sites.wustl.edu/dist/6/4383/files/2025/07/Data-Use-Agreement_July2025.pdf) restricts third-party sharing and requires access-controlled storage. The approved investigator must verify proposed Colab, repository and hosting terms against the applicable agreement before transfer. Keep all participant-level manifests, images and tables out of Git and coding-assistant prompts. Synthetic fixtures are the only permitted inputs before access and environment approval.
+
+## Decision gates still open
+
+1. Named investigator and institutional approval for the selected source.
+2. Written assessment that the proposed cloud processing and checkpoint handling satisfy the applicable DUA.
+3. Versioned, authorized cohort extraction and actual paired counts after all filters.
+4. Signed target/feature provenance review, including AD etiology fields if that endpoint is used.
+5. External-label mapping and feasibility check; if it fails, report within-ADNI validation only.
+
+No model training or application implementation follows from this document alone.

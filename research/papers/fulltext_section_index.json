@@ -1,0 +1,5464 @@
+{
+  "P005": {
+    "pmcid": "PMC12680758",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12680758/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "Sec2",
+        "title": "Related works"
+      },
+      {
+        "id": "Sec3",
+        "title": "The proposed DeepALZNET framework"
+      },
+      {
+        "id": "Sec4",
+        "title": "Pathway-1: clinical data analysis using CNN and random forest"
+      },
+      {
+        "id": "Sec5",
+        "title": "Pathway-2: MRI image analysis using a deep CNN"
+      },
+      {
+        "id": "Sec6",
+        "title": "Experimental results and discussion"
+      },
+      {
+        "id": "Sec7",
+        "title": "Datasets"
+      },
+      {
+        "id": "Sec8",
+        "title": "Network training phase"
+      },
+      {
+        "id": "Sec9",
+        "title": "Pathway1: clinical data based training"
+      },
+      {
+        "id": "Sec10",
+        "title": "Pathway2: MRI data based training"
+      },
+      {
+        "id": "Sec11",
+        "title": "Results and discussion"
+      },
+      {
+        "id": "Sec12",
+        "title": "Pathway1: clinical data results"
+      },
+      {
+        "id": "Sec13",
+        "title": "Pathway 2: MRI data results (Kaggle dataset)"
+      },
+      {
+        "id": "Sec14",
+        "title": "Key clinical data in Alzheimer’s classification"
+      },
+      {
+        "id": "Sec15",
+        "title": "Key brain regions in Alzheimer’s classification"
+      },
+      {
+        "id": "Sec16",
+        "title": "Comparison with baselines"
+      },
+      {
+        "id": "Sec17",
+        "title": "Conclusion"
+      },
+      {
+        "id": "notes1",
+        "title": "Author contributions"
+      },
+      {
+        "id": "notes2",
+        "title": "Funding"
+      },
+      {
+        "id": "notes3",
+        "title": "Data availability"
+      },
+      {
+        "id": "notes4",
+        "title": "Declarations"
+      },
+      {
+        "id": "FPar1",
+        "title": "Competing interests"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "Bib1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P006": {
+    "pmcid": "PMC13018777",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13018777/fullTextXML",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Introduction"
+      },
+      {
+        "id": "s2",
+        "title": "Methods"
+      },
+      {
+        "id": "s2-1",
+        "title": "Study Design"
+      },
+      {
+        "id": "s2-2",
+        "title": "Source of the Study and Search Criteria"
+      },
+      {
+        "id": "s2-3",
+        "title": "Eligibility Criteria"
+      },
+      {
+        "id": "s2-4",
+        "title": "Selection Process"
+      },
+      {
+        "id": "s2-5",
+        "title": "Overview of AI-Assisted AD Diagnosis"
+      },
+      {
+        "id": "s2-6",
+        "title": "Performance Evaluation Metrics"
+      },
+      {
+        "id": "s2-7",
+        "title": "Risk of Bias and Quality Assessment"
+      },
+      {
+        "id": "s3",
+        "title": "Results"
+      },
+      {
+        "id": "s3-1",
+        "title": "Overview"
+      },
+      {
+        "id": "s3-2",
+        "title": "Single Modality"
+      },
+      {
+        "id": "s3-2-1",
+        "title": "Overview"
+      },
+      {
+        "id": "s3-2-2",
+        "title": "Deep Learning"
+      },
+      {
+        "id": "s3-3",
+        "title": "Ensemble Learning"
+      },
+      {
+        "id": "s3-4",
+        "title": "Summarization for Single Modality"
+      },
+      {
+        "id": "s3-5",
+        "title": "Multimodal Data"
+      },
+      {
+        "id": "s3-5-1",
+        "title": "Multimodal Dataset Overview"
+      },
+      {
+        "id": "s3-5-2",
+        "title": "Multimodal Clinical Phenotyping Datasets"
+      },
+      {
+        "id": "s3-5-3",
+        "title": "UK Biobank Dataset"
+      },
+      {
+        "id": "s3-5-4",
+        "title": "ADNI Dataset"
+      },
+      {
+        "id": "s3-5-5",
+        "title": "Self-Collected Datasets"
+      },
+      {
+        "id": "s3-6",
+        "title": "Multimodal Linguistic-Based Cognitive Impairment Datasets"
+      },
+      {
+        "id": "s3-7",
+        "title": "Summarization Based on All Multimodal Datasets and Quantitative Analysis"
+      },
+      {
+        "id": "s3-8",
+        "title": "Multimodal Fusion Taxonomy"
+      },
+      {
+        "id": "s4",
+        "title": "Discussion"
+      },
+      {
+        "id": "s4-1",
+        "title": "Principal Findings"
+      },
+      {
+        "id": "s4-2",
+        "title": "Challenges and Future Directions"
+      },
+      {
+        "id": "s4-3",
+        "title": "Clinical and Translational Implications"
+      },
+      {
+        "id": "s4-4",
+        "title": "Ethical and Regulatory Implications"
+      },
+      {
+        "id": "s4-5",
+        "title": "Data Privacy and Data-Sharing Constraints"
+      },
+      {
+        "id": "s4-6",
+        "title": "Data Imbalance"
+      },
+      {
+        "id": "s4-7",
+        "title": "Lack of Standardized and Longitudinal Data"
+      },
+      {
+        "id": "s4-8",
+        "title": "Dataset-Specific Limitations"
+      },
+      {
+        "id": "s4-9",
+        "title": "Model Interpretability and Explainability"
+      },
+      {
+        "id": "s4-10",
+        "title": "Heterogeneous Multiview Learning Problem"
+      },
+      {
+        "id": "s4-11",
+        "title": "Uncertainty Quantification and Clinical Applicability"
+      },
+      {
+        "id": "s4-12",
+        "title": "Risks of Data Leakage in Multimodal AI Modeling"
+      },
+      {
+        "id": "s4-13",
+        "title": "Conclusions"
+      },
+      {
+        "id": "s5",
+        "title": "Supplementary material"
+      }
+    ]
+  },
+  "P007": {
+    "pmcid": "PMC12939236",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12939236/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1-diagnostics-16-00593",
+        "title": "1. Introduction"
+      },
+      {
+        "id": "sec2-diagnostics-16-00593",
+        "title": "2. Related Work"
+      },
+      {
+        "id": "sec3-diagnostics-16-00593",
+        "title": "3. Methodology"
+      },
+      {
+        "id": "sec3dot1-diagnostics-16-00593",
+        "title": "3.1. Dataset Description"
+      },
+      {
+        "id": "sec3dot2-diagnostics-16-00593",
+        "title": "3.2. The Proposed Framework"
+      },
+      {
+        "id": "sec3dot3-diagnostics-16-00593",
+        "title": "3.3. Data Preparation and Leakage-Free Evaluation Protocol"
+      },
+      {
+        "id": "sec3dot4-diagnostics-16-00593",
+        "title": "3.4. Convolutional Feature Extraction"
+      },
+      {
+        "id": "sec3dot5-diagnostics-16-00593",
+        "title": "3.5. Transformer-Based Global Context Modeling"
+      },
+      {
+        "id": "sec3dot6-diagnostics-16-00593",
+        "title": "3.6. Progression-Aware Ordinal Learning"
+      },
+      {
+        "id": "sec3dot7-diagnostics-16-00593",
+        "title": "3.7. Consistency Regularization for Robust Prediction"
+      },
+      {
+        "id": "sec3dot8-diagnostics-16-00593",
+        "title": "3.8. Training Objective"
+      },
+      {
+        "id": "sec3dot9-diagnostics-16-00593",
+        "title": "3.9. Model Interpretability via Token Importance"
+      },
+      {
+        "id": "sec3dot10-diagnostics-16-00593",
+        "title": "3.10. Implementation Details"
+      },
+      {
+        "id": "sec4-diagnostics-16-00593",
+        "title": "4. Results"
+      },
+      {
+        "id": "sec4dot1-diagnostics-16-00593",
+        "title": "4.1. Ordinal Error Analysis and Clinical Consistency"
+      },
+      {
+        "id": "sec4dot2-diagnostics-16-00593",
+        "title": "4.2. Token-Level Interpretability and Disease Progression Analysis"
+      },
+      {
+        "id": "sec4dot3-diagnostics-16-00593",
+        "title": "4.3. Ablation Study"
+      },
+      {
+        "id": "sec5-diagnostics-16-00593",
+        "title": "5. Discussion"
+      },
+      {
+        "id": "sec6-diagnostics-16-00593",
+        "title": "6. Conclusions"
+      }
+    ]
+  },
+  "P008": {
+    "pmcid": "PMC12979575",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12979575/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "Sec2",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "Sec3",
+        "title": "Overall architecture"
+      },
+      {
+        "id": "Sec4",
+        "title": "Feature extraction and fusion"
+      },
+      {
+        "id": "FPar4",
+        "title": "Vision transformer (ViT) pathway"
+      },
+      {
+        "id": "FPar5",
+        "title": "CNN transfer learning pathway"
+      },
+      {
+        "id": "FPar6",
+        "title": "Feature fusion"
+      },
+      {
+        "id": "Sec5",
+        "title": "Classification"
+      },
+      {
+        "id": "Sec6",
+        "title": "Experiment"
+      },
+      {
+        "id": "Sec7",
+        "title": "Dataset"
+      },
+      {
+        "id": "Sec8",
+        "title": "Dataset pre-processing"
+      },
+      {
+        "id": "Sec9",
+        "title": "Evaluation metrics"
+      },
+      {
+        "id": "Sec10",
+        "title": "Implementation details"
+      },
+      {
+        "id": "Sec11",
+        "title": "Model explainability"
+      },
+      {
+        "id": "Sec12",
+        "title": "Results and discussion"
+      },
+      {
+        "id": "Sec13",
+        "title": "Performance comparison of the proposed ViTTL model and with other ViT + CNNs based transfer learning models"
+      },
+      {
+        "id": "Sec14",
+        "title": "Ablation study"
+      },
+      {
+        "id": "Sec15",
+        "title": "Performance comparison of the proposed model with existing works"
+      },
+      {
+        "id": "Sec16",
+        "title": "LIME and GRAD-CAM: relevance of AD affected brain regions"
+      },
+      {
+        "id": "Sec17",
+        "title": "Limitations and future scope"
+      },
+      {
+        "id": "Sec18",
+        "title": "Conclusion"
+      },
+      {
+        "id": "Sec19",
+        "title": "Supplementary Information"
+      }
+    ]
+  },
+  "P009": {
+    "pmcid": "PMC13147446",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13147446/fullTextXML",
+    "sections": [
+      {
+        "id": "sec3",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec4",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "sec5",
+        "title": "Study participants"
+      },
+      {
+        "id": "sec6",
+        "title": "Image data source"
+      },
+      {
+        "id": "sec7",
+        "title": "Text data source"
+      },
+      {
+        "id": "sec8",
+        "title": "Subject-level data splitting methodology"
+      },
+      {
+        "id": "sec9",
+        "title": "Image data preprocessing"
+      },
+      {
+        "id": "sec10",
+        "title": "Image data augmentation"
+      },
+      {
+        "id": "sec11",
+        "title": "Multimodal architecture"
+      },
+      {
+        "id": "sec12",
+        "title": "Baseline model comparison strategy"
+      },
+      {
+        "id": "sec13",
+        "title": "Textural feature contribution analysis"
+      },
+      {
+        "id": "sec14",
+        "title": "Implementation"
+      },
+      {
+        "id": "sec15",
+        "title": "Performance metrics"
+      },
+      {
+        "id": "sec16",
+        "title": "Results"
+      },
+      {
+        "id": "sec17",
+        "title": "Discussion"
+      },
+      {
+        "id": "sec18",
+        "title": "Cross-modal attention"
+      },
+      {
+        "id": "sec19",
+        "title": "Comparison of multiple fusion strategies"
+      },
+      {
+        "id": "sec20",
+        "title": "Ablation studies of different augmentation strategies"
+      },
+      {
+        "id": "sec21",
+        "title": "Comparison with existing diagnostic approaches"
+      },
+      {
+        "id": "sec22",
+        "title": "Technical innovations and model architecture decisions"
+      },
+      {
+        "id": "sec23",
+        "title": "Heterogeneity of the data source"
+      },
+      {
+        "id": "sec24",
+        "title": "Prediction performances and interpretation of the proposed model"
+      },
+      {
+        "id": "sec25",
+        "title": "Limitations"
+      },
+      {
+        "id": "sec26",
+        "title": "Binary outcome prediction"
+      },
+      {
+        "id": "sec27",
+        "title": "Conclusion"
+      },
+      {
+        "id": "sec66",
+        "title": "Key Points"
+      },
+      {
+        "id": "sec27_pmc",
+        "title": "Supplementary Material"
+      },
+      {
+        "id": "bbag224-ack",
+        "title": "Acknowledgements"
+      },
+      {
+        "id": "_ci93_",
+        "title": "Contributor Information"
+      },
+      {
+        "id": "sec28",
+        "title": "Author contributions"
+      },
+      {
+        "id": "sec32",
+        "title": "Funding"
+      },
+      {
+        "id": "sec30",
+        "title": "Data availability"
+      },
+      {
+        "id": "sec31",
+        "title": "Ethics statement"
+      },
+      {
+        "id": "bib1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adsm93_",
+        "title": "Supplementary Materials"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P010": {
+    "pmcid": "PMC10799436",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10799436/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Background"
+      },
+      {
+        "id": "Sec2",
+        "title": "Results"
+      },
+      {
+        "id": "Sec3",
+        "title": "Performance of the proposed method"
+      },
+      {
+        "id": "Sec4",
+        "title": "Visualization results"
+      },
+      {
+        "id": "Sec5",
+        "title": "Discussion"
+      },
+      {
+        "id": "Sec6",
+        "title": "Comparison with previous methods"
+      },
+      {
+        "id": "Sec7",
+        "title": "Visualization analysis"
+      },
+      {
+        "id": "Sec8",
+        "title": "Conclusion"
+      },
+      {
+        "id": "Sec9",
+        "title": "Methods"
+      },
+      {
+        "id": "Sec10",
+        "title": "Feature learning-based 3DCNN"
+      },
+      {
+        "id": "Sec11",
+        "title": "Progressive learning of global feature information based on improved Transformer"
+      },
+      {
+        "id": "Sec12",
+        "title": "Muti-head self-attention"
+      },
+      {
+        "id": "Sec13",
+        "title": "Feed-forward networks"
+      },
+      {
+        "id": "Sec14",
+        "title": "Network model framework"
+      },
+      {
+        "id": "Sec15",
+        "title": "Model visualization"
+      },
+      {
+        "id": "Sec16",
+        "title": "Get the feature with the highest weight"
+      },
+      {
+        "id": "Sec17",
+        "title": "Feature decoding"
+      },
+      {
+        "id": "Sec18",
+        "title": "Data and preprocessing"
+      },
+      {
+        "id": "Sec19",
+        "title": "Experiment settings"
+      }
+    ]
+  },
+  "P011": {
+    "pmcid": "PMC12830585",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12830585/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "Sec2",
+        "title": "Methods"
+      },
+      {
+        "id": "Sec3",
+        "title": "Initial risk classification"
+      },
+      {
+        "id": "Sec4",
+        "title": "Step 1: Preprocessing and discretization of continuous variables"
+      },
+      {
+        "id": "Sec5",
+        "title": "Step 2: Univariate Classification Tree Training"
+      },
+      {
+        "id": "Sec6",
+        "title": "Tree Constraints"
+      },
+      {
+        "id": "Sec7",
+        "title": "Step 3: Grid search for optimal thresholds"
+      },
+      {
+        "id": "Sec8",
+        "title": "Step 4: Multivariate classification tree training"
+      },
+      {
+        "id": "Sec9",
+        "title": "Step 5: Final risk stratification"
+      },
+      {
+        "id": "Sec10",
+        "title": "Hybrid deep learning architecture, MedFusionNet"
+      },
+      {
+        "id": "Sec12",
+        "title": "• Self-attention mechanism"
+      },
+      {
+        "id": "Sec13",
+        "title": "Ethics"
+      },
+      {
+        "id": "Sec14",
+        "title": "Reporting summary"
+      },
+      {
+        "id": "Sec15",
+        "title": "Results"
+      },
+      {
+        "id": "Sec16",
+        "title": "The proposed framework"
+      },
+      {
+        "id": "Sec17",
+        "title": "Initial risk classification"
+      },
+      {
+        "id": "Sec18",
+        "title": "Hybrid deep learning architecture, MedFusionNet"
+      },
+      {
+        "id": "Sec19",
+        "title": "CNN Branch with DenseNet"
+      },
+      {
+        "id": "Sec20",
+        "title": "Transformer branch with self-attention"
+      },
+      {
+        "id": "Sec21",
+        "title": "Feature Pyramid Networks (FPNs)"
+      },
+      {
+        "id": "Sec22",
+        "title": "Addressing data imbalance in multilabel settings"
+      },
+      {
+        "id": "Sec23",
+        "title": "Dataset utilization"
+      },
+      {
+        "id": "Sec24",
+        "title": "Performance evaluation"
+      },
+      {
+        "id": "Sec25",
+        "title": "Experimental results"
+      },
+      {
+        "id": "Sec26",
+        "title": "Ablation study: contribution of parallel learning elements"
+      },
+      {
+        "id": "Sec27",
+        "title": "Computational efficiency of MedFusionNet"
+      },
+      {
+        "id": "Sec28",
+        "title": "Explainability analysis"
+      },
+      {
+        "id": "Sec29",
+        "title": "Discussion"
+      },
+      {
+        "id": "Sec30",
+        "title": "Ethics approval and consent to participate"
+      },
+      {
+        "id": "Sec31",
+        "title": "Supplementary information"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgements"
+      },
+      {
+        "id": "notes1",
+        "title": "Author contributions"
+      },
+      {
+        "id": "notes2",
+        "title": "Data availability"
+      },
+      {
+        "id": "notes3",
+        "title": "Code availability"
+      },
+      {
+        "id": "FPar1",
+        "title": "Competing interests"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "_ci93_",
+        "title": "Contributor Information"
+      },
+      {
+        "id": "sec36",
+        "title": "Supplementary information"
+      },
+      {
+        "id": "Bib1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adsm93_",
+        "title": "Supplementary Materials"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P012": {
+    "pmcid": "PMC13368755",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13368755/fullTextXML",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Introduction"
+      },
+      {
+        "id": "s2",
+        "title": "Related work"
+      },
+      {
+        "id": "",
+        "title": "Automatic classification of Alzheimer's disease based on MRI"
+      },
+      {
+        "id": "",
+        "title": "Multimodal feature representation and fusion methods"
+      },
+      {
+        "id": "",
+        "title": "Multimodal interaction and clinical semantic modeling"
+      },
+      {
+        "id": "s3",
+        "title": "Methods"
+      },
+      {
+        "id": "",
+        "title": "Overall framework"
+      },
+      {
+        "id": "",
+        "title": "ASFG: anatomy-guided spatial-frequency representation learning"
+      },
+      {
+        "id": "",
+        "title": "CASF: cross-modal coarse semantic alignment and structural fusion"
+      },
+      {
+        "id": "",
+        "title": "AGDF: anatomy-guided gated deep fusion"
+      },
+      {
+        "id": "",
+        "title": "Class-balanced focal loss"
+      },
+      {
+        "id": "s4",
+        "title": "Experiments"
+      },
+      {
+        "id": "",
+        "title": "Dataset and preprocessing"
+      },
+      {
+        "id": "",
+        "title": "Evaluation metrics"
+      },
+      {
+        "id": "",
+        "title": "Training and testing analysis"
+      },
+      {
+        "id": "",
+        "title": "Ablation study"
+      },
+      {
+        "id": "",
+        "title": "Comparison with state-of-the-art methods"
+      },
+      {
+        "id": "",
+        "title": "Visualization"
+      },
+      {
+        "id": "s5",
+        "title": "Conclusion"
+      }
+    ]
+  },
+  "P013": {
+    "pmcid": "PMC13572632",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13572632/fullTextXML",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Introduction"
+      },
+      {
+        "id": "s2",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "sec7",
+        "title": "Study design and population"
+      },
+      {
+        "id": "sec8",
+        "title": "Imaging protocol and parameters"
+      },
+      {
+        "id": "sec9",
+        "title": "Region of interest (ROI) segmentation"
+      },
+      {
+        "id": "sec10",
+        "title": "Radiomics feature extraction and selection"
+      },
+      {
+        "id": "sec11",
+        "title": "Model construction and interpretability analysis"
+      },
+      {
+        "id": "s3",
+        "title": "Results"
+      },
+      {
+        "id": "sec13",
+        "title": "Demographic characteristics"
+      },
+      {
+        "id": "sec14",
+        "title": "Results of radiomics feature selection"
+      },
+      {
+        "id": "sec15",
+        "title": "Model evaluation"
+      },
+      {
+        "id": "sec16",
+        "title": "Interpretability analysis"
+      },
+      {
+        "id": "sec17",
+        "title": "Nomogram construction"
+      },
+      {
+        "id": "s4",
+        "title": "Discussion"
+      },
+      {
+        "id": "sec19",
+        "title": "Relationship between homocysteine, triglyceride metabolic abnormalities, and AD"
+      },
+      {
+        "id": "sec20",
+        "title": "Complementary value of multimodal MRI sequences in AD diagnosis"
+      },
+      {
+        "id": "sec21",
+        "title": "Machine learning algorithm selection and model performance comparison"
+      },
+      {
+        "id": "sec22",
+        "title": "Clinical significance of SHAP interpretability analysis"
+      },
+      {
+        "id": "sec23",
+        "title": "Addressing overfitting, generalizability, and methodological rigor"
+      },
+      {
+        "id": "sec24",
+        "title": "Relation to advanced imaging and molecular biomarkers"
+      },
+      {
+        "id": "sec25",
+        "title": "Considerations on deep learning and alternative approaches"
+      },
+      {
+        "id": "sec26",
+        "title": "Limitations regarding the absence of an MCI group"
+      },
+      {
+        "id": "sec27",
+        "title": "Study limitations and future prospects"
+      },
+      {
+        "id": "s5",
+        "title": "Conclusion"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgments"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "s6",
+        "title": "Data availability statement"
+      },
+      {
+        "id": "s7",
+        "title": "Ethics statement"
+      },
+      {
+        "id": "s8",
+        "title": "Author contributions"
+      },
+      {
+        "id": "conf1",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "s10",
+        "title": "Generative AI statement"
+      },
+      {
+        "id": "s11",
+        "title": "Publisher's note"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P014": {
+    "pmcid": "PMC13219310",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13219310/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "Objectives and contributions of this review"
+      },
+      {
+        "id": "sec3",
+        "title": "Structure of the paper"
+      },
+      {
+        "id": "sec4",
+        "title": "Related work"
+      },
+      {
+        "id": "sec5",
+        "title": "Deep learning architectures employed"
+      },
+      {
+        "id": "sec6",
+        "title": "Transformers and attention mechanisms (MRI-only, standalone)"
+      },
+      {
+        "id": "sec7",
+        "title": "Graph neural networks (GNNs) and spatio-temporal networks (MRI-only focus)"
+      },
+      {
+        "id": "sec8",
+        "title": "Research methodology"
+      },
+      {
+        "id": "sec9",
+        "title": "Risk-of-bias assessment"
+      },
+      {
+        "id": "sec10",
+        "title": "Reproducibility and data availability"
+      },
+      {
+        "id": "sec11",
+        "title": "Datasets and pre-processing"
+      },
+      {
+        "id": "sec12",
+        "title": "Model performance outcomes"
+      },
+      {
+        "id": "sec13",
+        "title": "Challenges and limitations"
+      },
+      {
+        "id": "sec14",
+        "title": "Discussion"
+      },
+      {
+        "id": "sec15",
+        "title": "Implications for clinical practice"
+      },
+      {
+        "id": "sec16",
+        "title": "Regulatory and ethical frameworks"
+      },
+      {
+        "id": "sec17",
+        "title": "Workflow integration and clinical adoption"
+      },
+      {
+        "id": "sec18",
+        "title": "Limitations of current studies and open challenges"
+      },
+      {
+        "id": "sec19",
+        "title": "Future directions"
+      },
+      {
+        "id": "sec20",
+        "title": "Conclusion"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "sec21",
+        "title": "Author contributions"
+      },
+      {
+        "id": "sec22",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "sec23",
+        "title": "Generative AI statement"
+      },
+      {
+        "id": "sec24",
+        "title": "Publisher’s note"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      }
+    ]
+  },
+  "P015": {
+    "pmcid": "PMC13010822",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13010822/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "AI algorithms and the framework applied to neuroimaging"
+      },
+      {
+        "id": "sec2-1",
+        "title": "Artificial neural networks"
+      },
+      {
+        "id": "sec2-2",
+        "title": "Multimodal fusion strategies"
+      },
+      {
+        "id": "sec2-3",
+        "title": "Advancing explainable AI in neuroimaging-based dementia research"
+      },
+      {
+        "id": "sec3",
+        "title": "Application of multimodal AI in cognitive impairment management"
+      },
+      {
+        "id": "sec3-1",
+        "title": "Differential diagnosis of dementia"
+      },
+      {
+        "id": "sec3-2",
+        "title": "Early detection of cognitive impairment"
+      },
+      {
+        "id": "sec3-3",
+        "title": "Prediction of disease progression"
+      },
+      {
+        "id": "sec3-4",
+        "title": "Patient stratification and clinical trial optimization"
+      },
+      {
+        "id": "sec4",
+        "title": "Challenges and potential solutions of multimodal AI applications"
+      },
+      {
+        "id": "sec4-1",
+        "title": "Generalization challenges"
+      },
+      {
+        "id": "sec4-2",
+        "title": "Data scarcity and demographic underrepresentation"
+      },
+      {
+        "id": "sec4-3",
+        "title": "Interpretability and clinical trust barriers"
+      },
+      {
+        "id": "sec5",
+        "title": "Future directions and prospects"
+      },
+      {
+        "id": "sec5-1",
+        "title": "Intelligent sensor fusion for early biomarker discovery"
+      },
+      {
+        "id": "sec5-2",
+        "title": "Hybrid AI frameworks and multimodal integration"
+      },
+      {
+        "id": "sec5-3",
+        "title": "Multicentric data integration and missing modality innovation"
+      },
+      {
+        "id": "sec6",
+        "title": "Conclusion"
+      }
+    ]
+  },
+  "P016": {
+    "pmcid": "PMC12380820",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12380820/fullTextXML",
+    "sections": [
+      {
+        "id": "S1",
+        "title": "1 Introduction"
+      },
+      {
+        "id": "S2",
+        "title": "2 Materials and methods"
+      },
+      {
+        "id": "S2.SS1",
+        "title": "2.1 Study population"
+      },
+      {
+        "id": "S2.SS2",
+        "title": "2.2 MCI assessment"
+      },
+      {
+        "id": "S2.SS3",
+        "title": "2.3 Other cognitive tests and demographic data"
+      },
+      {
+        "id": "S2.SS4",
+        "title": "2.4 MRI data acquisition"
+      },
+      {
+        "id": "S2.SS5",
+        "title": "2.5 Image processing"
+      },
+      {
+        "id": "S2.SS6",
+        "title": "2.6 Statistical analyses"
+      },
+      {
+        "id": "S3",
+        "title": "3 Results"
+      },
+      {
+        "id": "S3.SS1",
+        "title": "3.1 Clinical and radiological characteristics"
+      },
+      {
+        "id": "S3.SS2",
+        "title": "3.2 Development of the three elastic net models to identify MCI in the training dataset"
+      },
+      {
+        "id": "S3.SS3",
+        "title": "3.3 Performance of elastic net models in the training and test datasets"
+      },
+      {
+        "id": "S4",
+        "title": "4 Discussion"
+      },
+      {
+        "id": "S4.SS1",
+        "title": "4.1 High performance model for detecting MCI"
+      },
+      {
+        "id": "S4.SS2",
+        "title": "4.2 Neuroimaging biomarkers relevant for detecting MCI"
+      },
+      {
+        "id": "S4.SS3",
+        "title": "4.3 PSMD is a selected neuroimaging biomarker of MCI"
+      },
+      {
+        "id": "S4.SS4",
+        "title": "4.4 CBF is a selected neuroimaging biomarker of MCI"
+      },
+      {
+        "id": "S4.SS5",
+        "title": "4.5 Implementation of the developed model"
+      },
+      {
+        "id": "S4.SS6",
+        "title": "4.6 Strengths and limitations"
+      },
+      {
+        "id": "S5",
+        "title": "5 Conclusion"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgments"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "S6",
+        "title": "Data availability statement"
+      },
+      {
+        "id": "S7",
+        "title": "Ethics statement"
+      },
+      {
+        "id": "S8",
+        "title": "Author contributions"
+      },
+      {
+        "id": "S10",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "S11",
+        "title": "Generative AI statement"
+      },
+      {
+        "id": "S12",
+        "title": "Publisher’s note"
+      },
+      {
+        "id": "S13",
+        "title": "Supplementary material"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adsm93_",
+        "title": "Supplementary Materials"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P017": {
+    "pmcid": "PMC12913073",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12913073/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "sec3",
+        "title": "Results"
+      },
+      {
+        "id": "sec4",
+        "title": "Discussion"
+      },
+      {
+        "id": "sec5",
+        "title": "Limitations"
+      },
+      {
+        "id": "sec6",
+        "title": "Conclusion"
+      }
+    ]
+  },
+  "P019": {
+    "pmcid": "PMC12717778",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12717778/fullTextXML",
+    "sections": [
+      {
+        "id": "sec0001",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec0002",
+        "title": "Macro-structural MRI"
+      },
+      {
+        "id": "sec0003",
+        "title": "Advanced diffusion and connectomics"
+      },
+      {
+        "id": "sec0004",
+        "title": "Beyond imaging"
+      },
+      {
+        "id": "sec0005",
+        "title": "Genomics, vascular risk, and modifiable lifestyle factors"
+      },
+      {
+        "id": "sec0006",
+        "title": "Study rationale and objectives"
+      },
+      {
+        "id": "sec0007",
+        "title": "Specific aim"
+      },
+      {
+        "id": "sec0008",
+        "title": "Secondary aims"
+      },
+      {
+        "id": "sec0009",
+        "title": "Methods"
+      },
+      {
+        "id": "sec0010",
+        "title": "Data source"
+      },
+      {
+        "id": "sec0011",
+        "title": "Cognitive assessment"
+      },
+      {
+        "id": "sec0012",
+        "title": "MRI acquisition and image processing"
+      },
+      {
+        "id": "sec0013",
+        "title": "Statistical analysis"
+      },
+      {
+        "id": "sec0014",
+        "title": "Data challenges"
+      },
+      {
+        "id": "sec0015",
+        "title": "Approach to data processing"
+      },
+      {
+        "id": "sec0016",
+        "title": "Predictor variable"
+      },
+      {
+        "id": "sec0017",
+        "title": "Predictive modelling"
+      },
+      {
+        "id": "sec0018",
+        "title": "Approach 1: using only the last visit (Multinomial logistic regression)"
+      },
+      {
+        "id": "sec0019",
+        "title": "Approach 2: using all visits over time (Generalized linear mixed model)"
+      },
+      {
+        "id": "sec0020",
+        "title": "Results"
+      },
+      {
+        "id": "sec0021",
+        "title": "Demographic summary"
+      },
+      {
+        "id": "sec0022",
+        "title": "Multicollinearity check: correlation and VIF"
+      },
+      {
+        "id": "sec0023",
+        "title": "Predicted probabilities by model and true diagnosis"
+      },
+      {
+        "id": "sec0024",
+        "title": "Type III Wald tests"
+      },
+      {
+        "id": "sec0025",
+        "title": "Likelihood ratio test results for nested models"
+      },
+      {
+        "id": "sec0026",
+        "title": "Discussion"
+      },
+      {
+        "id": "sec0027",
+        "title": "Interpretation of individual predictors"
+      },
+      {
+        "id": "sec0028",
+        "title": "Comparison of modeling strategies"
+      },
+      {
+        "id": "sec0029",
+        "title": "Clinical utility and predictive performance"
+      },
+      {
+        "id": "sec0030",
+        "title": "Strengths and limitations"
+      },
+      {
+        "id": "sec0031",
+        "title": "Practical implications"
+      },
+      {
+        "id": "sec0032",
+        "title": "Conclusion"
+      },
+      {
+        "id": "sec0033",
+        "title": "Data availability"
+      },
+      {
+        "id": "sec0034",
+        "title": "Funding"
+      },
+      {
+        "id": "sec0034a",
+        "title": "CRediT authorship contribution statement"
+      },
+      {
+        "id": "coi0001",
+        "title": "Declaration of competing interest"
+      }
+    ]
+  },
+  "P020": {
+    "pmcid": "PMC12481582",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12481582/fullTextXML",
+    "sections": [
+      {
+        "id": "jneae087ds1",
+        "title": "Introduction"
+      },
+      {
+        "id": "jneae087ds2",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "jneae087ds2-1",
+        "title": "Dataset"
+      },
+      {
+        "id": "jneae087ds2-2",
+        "title": "Preprocessing and feature engineering"
+      },
+      {
+        "id": "jneae087ds2-3",
+        "title": "Framework architecture"
+      },
+      {
+        "id": "jneae087ds2-3-1",
+        "title": "Feature reduction module"
+      },
+      {
+        "id": "jneae087ds2-3-2",
+        "title": "Generative module"
+      },
+      {
+        "id": "jneae087ds2-3-3",
+        "title": "Data fusion & classification module"
+      },
+      {
+        "id": "jneae087ds2-4",
+        "title": "Training scheme"
+      },
+      {
+        "id": "jneae087ds2-4-1",
+        "title": "Training step 1: bi-modal models and cGANs"
+      },
+      {
+        "id": "jneae087ds2-4-2",
+        "title": "Training Step 2: full multimodal framework"
+      },
+      {
+        "id": "jneae087ds2-4-2-1",
+        "title": "2.4.1. Testing and performance evaluation"
+      },
+      {
+        "id": "jneae087ds2-5",
+        "title": "Comparison with baseline approaches"
+      },
+      {
+        "id": "jneae087ds3",
+        "title": "Post-hoc interpretability analysis"
+      },
+      {
+        "id": "jneae087ds3-1",
+        "title": "Neuroimaging"
+      },
+      {
+        "id": "jneae087ds3-2",
+        "title": "Genetics"
+      },
+      {
+        "id": "jneae087ds4",
+        "title": "Results"
+      },
+      {
+        "id": "jneae087ds4-1",
+        "title": "Task 1: AD detection"
+      },
+      {
+        "id": "jneae087ds4-1-1",
+        "title": "Feature relevance"
+      },
+      {
+        "id": "jneae087ds4-2",
+        "title": "Task 2: MCI conversion prediction"
+      },
+      {
+        "id": "jneae087ds4-2-1",
+        "title": "Feature relevance"
+      },
+      {
+        "id": "jneae087ds4-3",
+        "title": "4.3. Group-based statistical IG analysis"
+      },
+      {
+        "id": "jneae087ds4-3-1",
+        "title": "Neuroimaging modalities"
+      },
+      {
+        "id": "jneae087ds4-3-2",
+        "title": "Genetic modality"
+      },
+      {
+        "id": "jneae087ds5",
+        "title": "Discussion"
+      },
+      {
+        "id": "jneae087ds5-1",
+        "title": "Classification performance and missing data management"
+      },
+      {
+        "id": "jneae087ds5-2",
+        "title": "Interpretability analyses"
+      },
+      {
+        "id": "jneae087ds5-3",
+        "title": "Main contributions and outcomes"
+      },
+      {
+        "id": "jneae087ds5-3-1",
+        "title": "Limitations and future works"
+      },
+      {
+        "id": "jneae087ds6",
+        "title": "Conclusions"
+      }
+    ]
+  },
+  "P021": {
+    "pmcid": "PMC13453829",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13453829/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "Imaging data and preprocessing steps"
+      },
+      {
+        "id": "sec3",
+        "title": "Choice of neuroimaging modalities"
+      },
+      {
+        "id": "sec4",
+        "title": "Models and experiments"
+      },
+      {
+        "id": "sec5",
+        "title": "Random forest and Shapley values"
+      },
+      {
+        "id": "sec6",
+        "title": "AutoGluon"
+      },
+      {
+        "id": "sec7",
+        "title": "3D CNN"
+      },
+      {
+        "id": "sec8",
+        "title": "Occlusion sensitivity analysis"
+      },
+      {
+        "id": "sec9",
+        "title": "Guided GradCAM"
+      },
+      {
+        "id": "sec10",
+        "title": "Shapley values"
+      },
+      {
+        "id": "sec11",
+        "title": "Smooth grad"
+      },
+      {
+        "id": "sec12",
+        "title": "Integrated gradients (IG)"
+      },
+      {
+        "id": "sec13",
+        "title": "Layer-wise relevance propagation (LRP)"
+      },
+      {
+        "id": "sec14",
+        "title": "Voxel-based morphometry (VBM)"
+      },
+      {
+        "id": "sec15",
+        "title": "Hybrid CNN architecture"
+      },
+      {
+        "id": "sec16",
+        "title": "Transformer-based architecture"
+      },
+      {
+        "id": "sec17",
+        "title": "Results"
+      },
+      {
+        "id": "sec18",
+        "title": "Congruence of xAI salience maps and VBM"
+      },
+      {
+        "id": "sec19",
+        "title": "Classification performance of the hybrid CNN"
+      },
+      {
+        "id": "sec20",
+        "title": "Transformer-based model performance"
+      },
+      {
+        "id": "sec21",
+        "title": "Discussion"
+      },
+      {
+        "id": "sec22",
+        "title": "Limitations"
+      },
+      {
+        "id": "sec23",
+        "title": "Conclusion"
+      }
+    ]
+  },
+  "P022": {
+    "pmcid": "PMC12417529",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12417529/fullTextXML",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "1 Introduction"
+      },
+      {
+        "id": "s2",
+        "title": "2 Related work"
+      },
+      {
+        "id": "sec7",
+        "title": "2.1 Neural network backbones"
+      },
+      {
+        "id": "sec8",
+        "title": "2.2 Attention mechanism development"
+      },
+      {
+        "id": "sec9",
+        "title": "2.3 Model interpretability techniques"
+      },
+      {
+        "id": "s3",
+        "title": "3 Materials and methods"
+      },
+      {
+        "id": "sec11",
+        "title": "3.1 Materials"
+      },
+      {
+        "id": "sec12",
+        "title": "3.2 Methodology"
+      },
+      {
+        "id": "sec13",
+        "title": "3.2.1 Feature extraction"
+      },
+      {
+        "id": "sec14",
+        "title": "3.2.2 Hybrid Block Attention Module"
+      },
+      {
+        "id": "sec15",
+        "title": "3.2.2.1 Hybrid Channel Attention Module"
+      },
+      {
+        "id": "sec16",
+        "title": "3.2.2.2 Spatial attention module"
+      },
+      {
+        "id": "sec17",
+        "title": "3.2.3 Multimodal cascaded attention"
+      },
+      {
+        "id": "sec18",
+        "title": "3.2.4 Loss function"
+      },
+      {
+        "id": "s4",
+        "title": "4 Results"
+      },
+      {
+        "id": "sec20",
+        "title": "4.1 Implementation details"
+      },
+      {
+        "id": "sec21",
+        "title": "4.2 Comparative experiments"
+      },
+      {
+        "id": "sec22",
+        "title": "4.3 Ablation study"
+      },
+      {
+        "id": "sec23",
+        "title": "4.4 Model visualization and interpretability"
+      },
+      {
+        "id": "sec24",
+        "title": "4.4.1 Metrics visualization"
+      },
+      {
+        "id": "sec25",
+        "title": "4.4.2 Model interpretability"
+      },
+      {
+        "id": "s5",
+        "title": "5 Discussion"
+      },
+      {
+        "id": "s6",
+        "title": "6 Conclusion"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgments"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "s7",
+        "title": "Data availability statement"
+      },
+      {
+        "id": "s8",
+        "title": "Ethics statement"
+      },
+      {
+        "id": "s9",
+        "title": "Author contributions"
+      },
+      {
+        "id": "conf1",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "s11",
+        "title": "Generative AI statement"
+      },
+      {
+        "id": "s12",
+        "title": "Publisher's note"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P023": {
+    "pmcid": "PMC12687559",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12687559/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "Literature review"
+      },
+      {
+        "id": "sec3",
+        "title": "Methodology and framework"
+      },
+      {
+        "id": "sec4",
+        "title": "Pre-trained models"
+      },
+      {
+        "id": "sec5",
+        "title": "Performance criteria"
+      },
+      {
+        "id": "sec6",
+        "title": "Data collection and preprocessing"
+      },
+      {
+        "id": "sec7",
+        "title": "Workflow of methodology"
+      },
+      {
+        "id": "sec8",
+        "title": "Performance evaluation and discussion of results"
+      },
+      {
+        "id": "sec9",
+        "title": "Training, validation and testing phase"
+      },
+      {
+        "id": "sec10",
+        "title": "Evaluation performance of deep neural model"
+      },
+      {
+        "id": "sec11",
+        "title": "Grad-CAM visualization"
+      },
+      {
+        "id": "sec12",
+        "title": "Discussion of results"
+      },
+      {
+        "id": "sec13",
+        "title": "Data challenges"
+      },
+      {
+        "id": "sec14",
+        "title": "Model limitations"
+      },
+      {
+        "id": "sec15",
+        "title": "Clinical relevance"
+      },
+      {
+        "id": "sec16",
+        "title": "Implications for future research"
+      },
+      {
+        "id": "sec17",
+        "title": "Summary of discussion"
+      },
+      {
+        "id": "sec18",
+        "title": "Conclusion"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgments"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "sec19",
+        "title": "Data availability statement"
+      },
+      {
+        "id": "sec20",
+        "title": "Ethics statement"
+      },
+      {
+        "id": "sec21",
+        "title": "Author contributions"
+      },
+      {
+        "id": "sec23",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "sec24",
+        "title": "Generative AI statement"
+      },
+      {
+        "id": "sec25",
+        "title": "Publisher’s note"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P024": {
+    "pmcid": "PMC12872672",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12872672/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "Sec2",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "Sec3",
+        "title": "Study Samples"
+      },
+      {
+        "id": "Sec4",
+        "title": "Multimodal Data Information and Preprocessing"
+      },
+      {
+        "id": "Sec5",
+        "title": "Community Detection with SNF"
+      },
+      {
+        "id": "Sec6",
+        "title": "Robustness of Clustering"
+      },
+      {
+        "id": "Sec7",
+        "title": "Survival Analysis"
+      },
+      {
+        "id": "Sec8",
+        "title": "Clinical Trajectory Analysis for Patient Subgroups"
+      },
+      {
+        "id": "Sec9",
+        "title": "Gene Set Variation Analysis (GSVA)"
+      },
+      {
+        "id": "Sec10",
+        "title": "Statistical Analyses"
+      },
+      {
+        "id": "Sec11",
+        "title": "Results"
+      },
+      {
+        "id": "Sec12",
+        "title": "The SNF-based Method Identified Healthy and AD Cases Accurately"
+      },
+      {
+        "id": "Sec13",
+        "title": "Robustness Analysis of Patient Clustering"
+      },
+      {
+        "id": "Sec14",
+        "title": "Longitudinal Analysis of Different Communities Moving to AD"
+      },
+      {
+        "id": "Sec15",
+        "title": "Comparing Subjects with CN in Different Communities"
+      },
+      {
+        "id": "Sec16",
+        "title": "Comparing MCIs in Different Communities Based on Baseline Data"
+      },
+      {
+        "id": "Sec17",
+        "title": "Longitudinal Analysis of the MCI Subgroups in Different Features"
+      },
+      {
+        "id": "Sec18",
+        "title": "Validation of Molecular Subtypes by Trajectory Analysis"
+      },
+      {
+        "id": "Sec19",
+        "title": "Discussion"
+      },
+      {
+        "id": "Sec20",
+        "title": "Supplementary Information"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgements"
+      },
+      {
+        "id": "notes1",
+        "title": "Author Contributions"
+      },
+      {
+        "id": "notes2",
+        "title": "Funding Information"
+      },
+      {
+        "id": "notes3",
+        "title": "Data Availability"
+      },
+      {
+        "id": "notes4",
+        "title": "Declarations"
+      },
+      {
+        "id": "FPar1",
+        "title": "Ethical Approval"
+      },
+      {
+        "id": "FPar2",
+        "title": "Consent for Publication"
+      },
+      {
+        "id": "FPar3",
+        "title": "Clinical Trial Number"
+      },
+      {
+        "id": "FPar4",
+        "title": "Human Ethics and Consent to Participate"
+      },
+      {
+        "id": "FPar5",
+        "title": "Competing interests"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "_ci93_",
+        "title": "Contributor Information"
+      },
+      {
+        "id": "Bib1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adsm93_",
+        "title": "Supplementary Materials"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P025": {
+    "pmcid": "PMC12171368",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12171368/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "Research progress in the use of brain structure MRI for the prediction of MCI conversion"
+      },
+      {
+        "id": "sec3",
+        "title": "Research progress on functional magnetic resonance imaging-assisted MCI transformation prediction"
+      },
+      {
+        "id": "sec4",
+        "title": "Cerebral haemodynamic changes during transformation in patients with MCI"
+      },
+      {
+        "id": "sec5",
+        "title": "Deep learning and machine learning AI methods build a new framework for transforming MCI risk prediction into AD risk prediction"
+      },
+      {
+        "id": "sec6",
+        "title": "Challenges faced by AI technology"
+      },
+      {
+        "id": "sec7",
+        "title": "Data quality and standardization"
+      },
+      {
+        "id": "sec8",
+        "title": "Feature selection and model optimization"
+      },
+      {
+        "id": "sec9",
+        "title": "Clinical translation and application"
+      },
+      {
+        "id": "sec10",
+        "title": "Conclusion"
+      }
+    ]
+  },
+  "P026": {
+    "pmcid": "PMC12953077",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953077/fullTextXML",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Highlights"
+      },
+      {
+        "id": "s2",
+        "title": "Introduction"
+      },
+      {
+        "id": "s3",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "sec4",
+        "title": "Population description"
+      },
+      {
+        "id": "sec5",
+        "title": "Data pre-processing"
+      },
+      {
+        "id": "sec6",
+        "title": "T1w-sMRI processing"
+      },
+      {
+        "id": "sec7",
+        "title": "Diffusion MRI processing"
+      },
+      {
+        "id": "sec8",
+        "title": "Connectivity matrix generation"
+      },
+      {
+        "id": "sec9",
+        "title": "Feature extraction"
+      },
+      {
+        "id": "sec10",
+        "title": "Morphometric (MO) features"
+      },
+      {
+        "id": "sec11",
+        "title": "Microstructural (MS) features"
+      },
+      {
+        "id": "sec12",
+        "title": "Graph-theoretical (GT) features"
+      },
+      {
+        "id": "sec13",
+        "title": "Feature pre-processing and covariate adjustment"
+      },
+      {
+        "id": "sec14",
+        "title": "Proposed ML framework"
+      },
+      {
+        "id": "sec15",
+        "title": "Base learners and nested cross-validation"
+      },
+      {
+        "id": "sec16",
+        "title": "Ensemble learning"
+      },
+      {
+        "id": "sec17",
+        "title": "Statistical analysis"
+      },
+      {
+        "id": "sec18",
+        "title": "eXplainable artificial intelligence"
+      },
+      {
+        "id": "sec19",
+        "title": "Experimental setup"
+      },
+      {
+        "id": "s4",
+        "title": "Experiments and results"
+      },
+      {
+        "id": "sec21",
+        "title": "Alzheimer's disease cognitive stage classification tasks"
+      },
+      {
+        "id": "sec22",
+        "title": "Longitudinal cognitive decline prediction task"
+      },
+      {
+        "id": "sec23",
+        "title": "Explainability and interpretability"
+      },
+      {
+        "id": "s5",
+        "title": "Discussion"
+      },
+      {
+        "id": "sec25",
+        "title": "Interpretation of key findings"
+      },
+      {
+        "id": "sec26",
+        "title": "Clinical implications"
+      },
+      {
+        "id": "sec27",
+        "title": "Limitations and future directions"
+      },
+      {
+        "id": "s6",
+        "title": "Conclusion"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "s7",
+        "title": "Data availability statement"
+      },
+      {
+        "id": "s8",
+        "title": "Ethics statement"
+      },
+      {
+        "id": "s9",
+        "title": "Author contributions"
+      },
+      {
+        "id": "conf1",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "s11",
+        "title": "Generative AI statement"
+      },
+      {
+        "id": "s12",
+        "title": "Publisher's note"
+      },
+      {
+        "id": "s13",
+        "title": "Supplementary material"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adsm93_",
+        "title": "Supplementary Materials"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P027": {
+    "pmcid": "PMC12561078",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12561078/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1-bioengineering-12-01107",
+        "title": "1. Introduction"
+      },
+      {
+        "id": "sec2-bioengineering-12-01107",
+        "title": "2. Related Works"
+      },
+      {
+        "id": "sec3-bioengineering-12-01107",
+        "title": "3. Methods"
+      },
+      {
+        "id": "sec3dot1-bioengineering-12-01107",
+        "title": "3.1. Problem Statement"
+      },
+      {
+        "id": "sec3dot2-bioengineering-12-01107",
+        "title": "3.2. Method Overview"
+      },
+      {
+        "id": "sec3dot2dot1-bioengineering-12-01107",
+        "title": "3.2.1. ResNet Layers with CBAM"
+      },
+      {
+        "id": "sec3dot2dot2-bioengineering-12-01107",
+        "title": "3.2.2. Text Encoder"
+      },
+      {
+        "id": "sec3dot2dot3-bioengineering-12-01107",
+        "title": "3.2.3. Meta-Guided Cross-Attention (MGCA)"
+      },
+      {
+        "id": "sec3dot2dot4-bioengineering-12-01107",
+        "title": "3.2.4. Final Classifer"
+      },
+      {
+        "id": "sec4-bioengineering-12-01107",
+        "title": "4. Experiments"
+      },
+      {
+        "id": "sec4dot1-bioengineering-12-01107",
+        "title": "4.1. Dataset"
+      },
+      {
+        "id": "sec4dot2-bioengineering-12-01107",
+        "title": "4.2. Feature Selection"
+      },
+      {
+        "id": "sec4dot3-bioengineering-12-01107",
+        "title": "4.3. Implementation"
+      },
+      {
+        "id": "sec5-bioengineering-12-01107",
+        "title": "5. Results and Discussion"
+      },
+      {
+        "id": "sec5dot1-bioengineering-12-01107",
+        "title": "5.1. Comparison with State-of-the-Art Models"
+      },
+      {
+        "id": "sec5dot2-bioengineering-12-01107",
+        "title": "5.2. Cross-Validation and Held-Out Test Performance on ADNI1"
+      },
+      {
+        "id": "sec5dot3-bioengineering-12-01107",
+        "title": "5.3. External Validation on OASIS-3"
+      },
+      {
+        "id": "sec5dot4-bioengineering-12-01107",
+        "title": "5.4. Ablation Studies"
+      },
+      {
+        "id": "sec6-bioengineering-12-01107",
+        "title": "6. Conclusions"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgments"
+      },
+      {
+        "id": "notes1",
+        "title": "Author Contributions"
+      },
+      {
+        "id": "notes2",
+        "title": "Institutional Review Board Statement"
+      },
+      {
+        "id": "notes3",
+        "title": "Informed Consent Statement"
+      },
+      {
+        "id": "notes4",
+        "title": "Data Availability Statement"
+      },
+      {
+        "id": "notes5",
+        "title": "Conflicts of Interest"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P028": {
+    "pmcid": "PMC11932999",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11932999/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "Related works"
+      },
+      {
+        "id": "sec3",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "sec4",
+        "title": "Data fusion strategy"
+      },
+      {
+        "id": "sec5",
+        "title": "Dataset collection"
+      },
+      {
+        "id": "sec6",
+        "title": "YOLOv11 architecture"
+      },
+      {
+        "id": "sec7",
+        "title": "Detection mechanism"
+      },
+      {
+        "id": "sec8",
+        "title": "Classification mechanism"
+      },
+      {
+        "id": "sec9",
+        "title": "Loss function"
+      },
+      {
+        "id": "sec10",
+        "title": "Performance evaluation"
+      },
+      {
+        "id": "sec11",
+        "title": "Precision"
+      },
+      {
+        "id": "sec12",
+        "title": "Recall"
+      },
+      {
+        "id": "sec13",
+        "title": "Mean average precision at IoU 0.5 (mAP@0.5)"
+      },
+      {
+        "id": "sec14",
+        "title": "F1-score"
+      },
+      {
+        "id": "sec15",
+        "title": "Results and discussion"
+      },
+      {
+        "id": "sec16",
+        "title": "Conclusion"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgments"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "sec17",
+        "title": "Data availability statement"
+      },
+      {
+        "id": "sec18",
+        "title": "Author contributions"
+      },
+      {
+        "id": "sec20",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "sec21",
+        "title": "Generative AI statement"
+      },
+      {
+        "id": "sec22",
+        "title": "Publisher’s note"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P029": {
+    "pmcid": "PMC11399681",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11399681/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "sec2.1",
+        "title": "Data description and problem definition"
+      },
+      {
+        "id": "sec2.2",
+        "title": "Identification of individual features associated with future dementia among MCI patients"
+      },
+      {
+        "id": "sec2.3",
+        "title": "Ensemble integration (EI)"
+      },
+      {
+        "id": "sec2.4",
+        "title": "Benchmark prediction approaches"
+      },
+      {
+        "id": "sec2.5",
+        "title": "Evaluation methodology"
+      },
+      {
+        "id": "sec3",
+        "title": "Results"
+      },
+      {
+        "id": "sec3.1",
+        "title": "Cohort characteristics"
+      },
+      {
+        "id": "sec3.2",
+        "title": "Individual features associated with future dementia among MCI patients"
+      },
+      {
+        "id": "sec3.3",
+        "title": "Performance of EI and benchmark methods for early detection of dementia"
+      },
+      {
+        "id": "sec3.4",
+        "title": "Most predictive features in final EI model"
+      },
+      {
+        "id": "sec4",
+        "title": "Discussion"
+      },
+      {
+        "id": "sec5",
+        "title": "Conclusion"
+      },
+      {
+        "id": "sec6",
+        "title": "Data and code availability"
+      },
+      {
+        "id": "sec7",
+        "title": "CRediT authorship contribution statement"
+      },
+      {
+        "id": "",
+        "title": "Declaration of competing interest"
+      }
+    ]
+  },
+  "P030": {
+    "pmcid": "PMC11127684",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11127684/fullTextXML",
+    "sections": [
+      {
+        "id": "dad212578-sec-0030",
+        "title": "BACKGROUND"
+      },
+      {
+        "id": "dad212578-sec-0040",
+        "title": "METHODS"
+      },
+      {
+        "id": "dad212578-sec-0050",
+        "title": "Three‐City cohort"
+      },
+      {
+        "id": "dad212578-sec-0060",
+        "title": "RESEARCH IN CONTEXT"
+      },
+      {
+        "id": "dad212578-sec-0070",
+        "title": "Sociodemographic, cognitive, functional, and health data collected"
+      },
+      {
+        "id": "dad212578-sec-0080",
+        "title": "MRI examination"
+      },
+      {
+        "id": "dad212578-sec-0090",
+        "title": "Diagnosis of dementia and death"
+      },
+      {
+        "id": "dad212578-sec-0100",
+        "title": "Statistical analysis: A landmark regularized survival approach"
+      },
+      {
+        "id": "dad212578-sec-0110",
+        "title": "Strategy of analysis"
+      },
+      {
+        "id": "dad212578-sec-0120",
+        "title": "RESULTS"
+      },
+      {
+        "id": "dad212578-sec-0130",
+        "title": "Sample description"
+      },
+      {
+        "id": "dad212578-sec-0140",
+        "title": "Selected variables for predicting dementia"
+      },
+      {
+        "id": "dad212578-sec-0150",
+        "title": "Predictive abilities"
+      },
+      {
+        "id": "dad212578-sec-0160",
+        "title": "DISCUSSION"
+      },
+      {
+        "id": "dad212578-sec-0180",
+        "title": "CONFLICT OF INTEREST STATEMENT"
+      },
+      {
+        "id": "dad212578-sec-0190",
+        "title": "CONSENT STATEMENT"
+      },
+      {
+        "id": "",
+        "title": "Supporting information"
+      }
+    ]
+  },
+  "P031": {
+    "pmcid": "PMC11471683",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11471683/fullTextXML",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "1 Introduction"
+      },
+      {
+        "id": "s2",
+        "title": "2 Breast cancer diagnosis: an overview"
+      },
+      {
+        "id": "s3",
+        "title": "3 Datasets"
+      },
+      {
+        "id": "s4",
+        "title": "4 Histopathology-driven breast cancer diagnosis"
+      },
+      {
+        "id": "",
+        "title": "4.1 Uni-modal techniques"
+      },
+      {
+        "id": "",
+        "title": "4.1.1 A comprehensive review on uni-modal techniques"
+      },
+      {
+        "id": "",
+        "title": "4.1.2 Uni-modal techniques: a critical analysis"
+      },
+      {
+        "id": "",
+        "title": "4.2 Multi-modal techniques"
+      },
+      {
+        "id": "",
+        "title": "4.2.1 An analysis of current existing multi-modal techniques"
+      },
+      {
+        "id": "",
+        "title": "4.2.2 Error analysis in multi-modal breast cancer detection"
+      },
+      {
+        "id": "",
+        "title": "4.2.3 Novel trends in multi-modal techniques"
+      },
+      {
+        "id": "s5",
+        "title": "5 An insight into explainable breast cancer diagnosis"
+      },
+      {
+        "id": "",
+        "title": "5.1 Existing methods: an explainability perspective"
+      },
+      {
+        "id": "",
+        "title": "5.2 Latest XAI approaches in multi-modal context"
+      },
+      {
+        "id": "s6",
+        "title": "6 Exploring future directions in multi-modal explainable for breast cancer diagnosis"
+      },
+      {
+        "id": "",
+        "title": "6.1 Advancing toward a new framework"
+      },
+      {
+        "id": "s7",
+        "title": "7 Conclusion"
+      }
+    ]
+  },
+  "P032": {
+    "pmcid": "PMC13164521",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13164521/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1-jcm-15-03441",
+        "title": "1. Introduction"
+      },
+      {
+        "id": "sec2-jcm-15-03441",
+        "title": "2. Materials and Methods"
+      },
+      {
+        "id": "sec2dot1-jcm-15-03441",
+        "title": "2.1. Study Identification"
+      },
+      {
+        "id": "sec2dot2-jcm-15-03441",
+        "title": "2.2. Eligibility Criteria"
+      },
+      {
+        "id": "sec2dot3-jcm-15-03441",
+        "title": "2.3. Study Selection Process"
+      },
+      {
+        "id": "sec2dot4-jcm-15-03441",
+        "title": "2.4. Data Extraction"
+      },
+      {
+        "id": "sec2dot5-jcm-15-03441",
+        "title": "2.5. Data Analysis"
+      },
+      {
+        "id": "sec2dot6-jcm-15-03441",
+        "title": "2.6. Risk of Bias Assessment"
+      },
+      {
+        "id": "sec3-jcm-15-03441",
+        "title": "3. Results"
+      },
+      {
+        "id": "sec3dot1-jcm-15-03441",
+        "title": "3.1. Study Selection"
+      },
+      {
+        "id": "sec3dot2-jcm-15-03441",
+        "title": "3.2. General Study Characteristics"
+      },
+      {
+        "id": "sec3dot3-jcm-15-03441",
+        "title": "3.3. Artificial Intelligence Methodological Characteristics"
+      },
+      {
+        "id": "sec3dot4-jcm-15-03441",
+        "title": "3.4. Validation and Dataset Characteristics"
+      },
+      {
+        "id": "sec3dot5-jcm-15-03441",
+        "title": "3.5. Methodological Transparency and Bias Indicators"
+      },
+      {
+        "id": "sec4-jcm-15-03441",
+        "title": "4. Discussion"
+      },
+      {
+        "id": "sec4dot1-jcm-15-03441",
+        "title": "4.1. Scope of Included Studies"
+      },
+      {
+        "id": "sec4dot2-jcm-15-03441",
+        "title": "4.2. External Validation and Generalizability"
+      },
+      {
+        "id": "sec4dot3-jcm-15-03441",
+        "title": "4.3. Data Leakage and Methodological Transparency"
+      },
+      {
+        "id": "sec4dot4-jcm-15-03441",
+        "title": "4.4. Clinical Benchmarking and Calibration"
+      },
+      {
+        "id": "sec4dot5-jcm-15-03441",
+        "title": "4.5. Incomplete Adherence to Standardized Reporting Frameworks"
+      },
+      {
+        "id": "sec4dot6-jcm-15-03441",
+        "title": "4.6. Translational Maturity and Future Directions"
+      },
+      {
+        "id": "sec4dot7-jcm-15-03441",
+        "title": "4.7. Strengths and Limitations"
+      },
+      {
+        "id": "sec4dot8-jcm-15-03441",
+        "title": "4.8. Future Directions for AI Methodology in Medical Imaging"
+      },
+      {
+        "id": "sec5-jcm-15-03441",
+        "title": "5. Conclusions"
+      }
+    ]
+  },
+  "P033": {
+    "pmcid": "PMC12383348",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12383348/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1-bioengineering-12-00845",
+        "title": "1. Introduction"
+      },
+      {
+        "id": "sec2-bioengineering-12-00845",
+        "title": "2. Materials and Methods"
+      },
+      {
+        "id": "sec2dot1-bioengineering-12-00845",
+        "title": "2.1. Dataset and Preprocessing"
+      },
+      {
+        "id": "sec4",
+        "title": "Variable Definitions"
+      },
+      {
+        "id": "sec2dot2-bioengineering-12-00845",
+        "title": "2.2. Data Splitting"
+      },
+      {
+        "id": "sec6",
+        "title": "Pseudocode for Data Splitting"
+      },
+      {
+        "id": "sec2dot3-bioengineering-12-00845",
+        "title": "2.3. Machine Learning Models"
+      },
+      {
+        "id": "sec8",
+        "title": "Logistic Regression Mathematical Formulation"
+      },
+      {
+        "id": "sec2dot4-bioengineering-12-00845",
+        "title": "2.4. Learning Curve Analysis"
+      },
+      {
+        "id": "sec10",
+        "title": "Pseudocode for Learning Curve"
+      },
+      {
+        "id": "sec2dot5-bioengineering-12-00845",
+        "title": "2.5. Prediction and Evaluation Metrics"
+      },
+      {
+        "id": "sec2dot5dot1-bioengineering-12-00845",
+        "title": "2.5.1. Mathematical Definitions"
+      },
+      {
+        "id": "sec2dot5dot2-bioengineering-12-00845",
+        "title": "2.5.2. Matlab-Style Pseudocode for Metric Computation"
+      },
+      {
+        "id": "sec2dot6-bioengineering-12-00845",
+        "title": "2.6. Visualization and Model Diagnostics"
+      },
+      {
+        "id": "sec15",
+        "title": "Pseudocode for Visualization"
+      },
+      {
+        "id": "sec2dot7-bioengineering-12-00845",
+        "title": "2.7. Comparative Experiments with and Without Overt Features"
+      },
+      {
+        "id": "sec2dot8-bioengineering-12-00845",
+        "title": "2.8. Implementation Details and Reproducibility"
+      },
+      {
+        "id": "sec18",
+        "title": "Variable Summary"
+      },
+      {
+        "id": "sec2dot9-bioengineering-12-00845",
+        "title": "2.9. Summary of Workflow"
+      },
+      {
+        "id": "sec3-bioengineering-12-00845",
+        "title": "3. Results"
+      },
+      {
+        "id": "sec3dot1-bioengineering-12-00845",
+        "title": "3.1. Superficial Performance Masks Diagnostic Failure in the Absence of Overt Features"
+      },
+      {
+        "id": "sec3dot2-bioengineering-12-00845",
+        "title": "3.2. Overfitting and Model Collapse Across Complexity Levels"
+      },
+      {
+        "id": "sec3dot3-bioengineering-12-00845",
+        "title": "3.3. Confusion Matrices Reveal the True Clinical Utility"
+      },
+      {
+        "id": "sec3dot4-bioengineering-12-00845",
+        "title": "3.4. Model Behavior with Obvious PD Features Included: The Effect of Data Leakage"
+      },
+      {
+        "id": "sec3dot5-bioengineering-12-00845",
+        "title": "3.5. Learning Curves Reveal the Impact of Overt Feature Inclusion"
+      },
+      {
+        "id": "sec3dot6-bioengineering-12-00845",
+        "title": "3.6. Direct Comparison and Clinical Implications"
+      },
+      {
+        "id": "sec4-bioengineering-12-00845",
+        "title": "4. Discussion"
+      },
+      {
+        "id": "sec4dot1-bioengineering-12-00845",
+        "title": "4.1. Analysis of Learning Curve Patterns"
+      },
+      {
+        "id": "sec4dot2-bioengineering-12-00845",
+        "title": "4.2. Strengths of the Study"
+      },
+      {
+        "id": "sec4dot3-bioengineering-12-00845",
+        "title": "4.3. Limitations and Weaknesses"
+      },
+      {
+        "id": "sec4dot4-bioengineering-12-00845",
+        "title": "4.4. Ensuring Clinical Value"
+      },
+      {
+        "id": "sec4dot5-bioengineering-12-00845",
+        "title": "4.5. Future Directions"
+      },
+      {
+        "id": "sec5-bioengineering-12-00845",
+        "title": "5. Conclusions"
+      },
+      {
+        "id": "glossary1",
+        "title": "Abbreviations"
+      },
+      {
+        "id": "notes1",
+        "title": "Author Contributions"
+      },
+      {
+        "id": "notes2",
+        "title": "Institutional Review Board Statement"
+      },
+      {
+        "id": "notes3",
+        "title": "Informed Consent Statement"
+      },
+      {
+        "id": "notes4",
+        "title": "Data Availability Statement"
+      },
+      {
+        "id": "notes5",
+        "title": "Conflicts of Interest"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P034": {
+    "pmcid": "PMC12833238",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12833238/fullTextXML",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Keypoints"
+      },
+      {
+        "id": "s2",
+        "title": "Introduction"
+      },
+      {
+        "id": "s3",
+        "title": "Systematic review"
+      },
+      {
+        "id": "s3a",
+        "title": "Designing an image biomarker study"
+      },
+      {
+        "id": "s3b",
+        "title": "Data collection"
+      },
+      {
+        "id": "s3c",
+        "title": "Preprocessing and feature extraction"
+      },
+      {
+        "id": "s3d",
+        "title": "Building a radiomic model"
+      },
+      {
+        "id": "s3e",
+        "title": "Dissemination of results"
+      },
+      {
+        "id": "s4",
+        "title": "Validating a radiomics biomarker for clinical use"
+      },
+      {
+        "id": "s4a",
+        "title": "Repeatability and robustness"
+      },
+      {
+        "id": "s4b",
+        "title": "Clinical validation"
+      },
+      {
+        "id": "s4c",
+        "title": "Biological validation"
+      },
+      {
+        "id": "s4d",
+        "title": "Regulatory framework"
+      },
+      {
+        "id": "s4d1",
+        "title": "USA"
+      },
+      {
+        "id": "s4d2",
+        "title": "Japan"
+      },
+      {
+        "id": "s4d3",
+        "title": "China"
+      },
+      {
+        "id": "s5",
+        "title": "Future directions"
+      },
+      {
+        "id": "s6",
+        "title": "Conclusions"
+      }
+    ]
+  },
+  "P035": {
+    "pmcid": "PMC12743287",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12743287/fullTextXML",
+    "sections": [
+      {
+        "id": "H1-1-ZOI251348",
+        "title": "Introduction"
+      },
+      {
+        "id": "H1-2-ZOI251348",
+        "title": "Methods"
+      },
+      {
+        "id": "H2-1-ZOI251348",
+        "title": "Data Source and Study Population"
+      },
+      {
+        "id": "H2-2-ZOI251348",
+        "title": "ICD Code Prediction Model Development and Evaluation"
+      },
+      {
+        "id": "H2-3-ZOI251348",
+        "title": "Targeted Literature Review"
+      },
+      {
+        "id": "H2-4-ZOI251348",
+        "title": "Statistical Analysis"
+      },
+      {
+        "id": "H1-3-ZOI251348",
+        "title": "Results"
+      },
+      {
+        "id": "H2-5-ZOI251348",
+        "title": "ICD Code–Based Prediction Models"
+      },
+      {
+        "id": "H2-6-ZOI251348",
+        "title": "Literature Review"
+      },
+      {
+        "id": "H1-4-ZOI251348",
+        "title": "Discussion"
+      },
+      {
+        "id": "H2-7-ZOI251348",
+        "title": "Limitations"
+      },
+      {
+        "id": "H1-5-ZOI251348",
+        "title": "Conclusions"
+      },
+      {
+        "id": "REF-ZOI251348",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adsm93_",
+        "title": "Supplementary Materials"
+      }
+    ]
+  },
+  "P036": {
+    "pmcid": "PMC13422431",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13422431/fullTextXML",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Introduction"
+      },
+      {
+        "id": "s2",
+        "title": "Methods: PRISMA-informed scoping mini-review approach"
+      },
+      {
+        "id": "s3",
+        "title": "Performance of responsible AI in healthcare: balanced interpretation"
+      },
+      {
+        "id": "s4",
+        "title": "Advancements and evidence distribution across responsible-AI domains"
+      },
+      {
+        "id": "s4a",
+        "title": "Explainability: useful but insufficient for clinical trust"
+      },
+      {
+        "id": "s4b",
+        "title": "Fairness and bias analysis"
+      },
+      {
+        "id": "s4c",
+        "title": "Privacy-preserving AI"
+      },
+      {
+        "id": "s4d",
+        "title": "Clinical trust and translation"
+      },
+      {
+        "id": "s5",
+        "title": "Methodological quality, risk of bias, and heterogeneity"
+      },
+      {
+        "id": "s6",
+        "title": "External validation, clinical translation, and trust recommendations"
+      },
+      {
+        "id": "s7",
+        "title": "Limitations and future work"
+      },
+      {
+        "id": "s8",
+        "title": "Conclusion"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgments"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "s9",
+        "title": "Data availability statement"
+      },
+      {
+        "id": "s10",
+        "title": "Author contributions"
+      },
+      {
+        "id": "s12",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "s13",
+        "title": "Generative AI statement"
+      },
+      {
+        "id": "s15",
+        "title": "Publisher's note"
+      },
+      {
+        "id": "s14",
+        "title": "Supplementary material"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adsm93_",
+        "title": "Supplementary Materials"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P037": {
+    "pmcid": "PMC12984829",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12984829/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1-diagnostics-16-00666",
+        "title": "1. Introduction"
+      },
+      {
+        "id": "sec2-diagnostics-16-00666",
+        "title": "2. Evaluation Metrics"
+      },
+      {
+        "id": "sec2dot1-diagnostics-16-00666",
+        "title": "2.1. Binary and Multi-Class Classification Models"
+      },
+      {
+        "id": "sec2dot1dot1-diagnostics-16-00666",
+        "title": "2.1.1. Averaging"
+      },
+      {
+        "id": "sec2dot1dot2-diagnostics-16-00666",
+        "title": "2.1.2. Confidence Intervals"
+      },
+      {
+        "id": "sec2dot1dot3-diagnostics-16-00666",
+        "title": "2.1.3. Confusion Matrix"
+      },
+      {
+        "id": "sec2dot1dot4-diagnostics-16-00666",
+        "title": "2.1.4. Statistical Analysis of the Validation Measures"
+      },
+      {
+        "id": "sec2dot2-diagnostics-16-00666",
+        "title": "2.2. Multi-Label Classification Models"
+      },
+      {
+        "id": "sec2dot2dot1-diagnostics-16-00666",
+        "title": "2.2.1. Hamming Loss"
+      },
+      {
+        "id": "sec2dot2dot2-diagnostics-16-00666",
+        "title": "2.2.2. Exact Match Ratio"
+      },
+      {
+        "id": "sec2dot2dot3-diagnostics-16-00666",
+        "title": "2.2.3. Jaccard Index"
+      },
+      {
+        "id": "sec2dot2dot4-diagnostics-16-00666",
+        "title": "2.2.4. Distribution Difference"
+      },
+      {
+        "id": "sec3-diagnostics-16-00666",
+        "title": "3. Evaluation Representation Curves"
+      },
+      {
+        "id": "sec3dot1-diagnostics-16-00666",
+        "title": "3.1. Precision–Recall Curve (PRC)"
+      },
+      {
+        "id": "sec3dot2-diagnostics-16-00666",
+        "title": "3.2. Lift Curve"
+      },
+      {
+        "id": "sec3dot3-diagnostics-16-00666",
+        "title": "3.3. Cumulative Response Curve (CRC)"
+      },
+      {
+        "id": "sec3dot4-diagnostics-16-00666",
+        "title": "3.4. Receiver Operating Characteristic (ROC)"
+      },
+      {
+        "id": "sec3dot5-diagnostics-16-00666",
+        "title": "3.5. Measurement Plots"
+      },
+      {
+        "id": "sec3dot6-diagnostics-16-00666",
+        "title": "3.6. Bland and Altman’s Analysis"
+      },
+      {
+        "id": "sec4-diagnostics-16-00666",
+        "title": "4. Bias, Fairness, and Robustness Assessment"
+      },
+      {
+        "id": "sec4dot1-diagnostics-16-00666",
+        "title": "4.1. Bias and Fairness Assessment"
+      },
+      {
+        "id": "sec4dot2-diagnostics-16-00666",
+        "title": "4.2. Equalized Odds as an Operational Fairness Criterion"
+      },
+      {
+        "id": "sec4dot3-diagnostics-16-00666",
+        "title": "4.3. Robustness Assessment via One-at-a-Time Perturbation"
+      },
+      {
+        "id": "sec5-diagnostics-16-00666",
+        "title": "5. Performance Metrics and Loss Functions"
+      },
+      {
+        "id": "sec5dot1-diagnostics-16-00666",
+        "title": "5.1. Root Mean Square Error"
+      },
+      {
+        "id": "sec5dot2-diagnostics-16-00666",
+        "title": "5.2. Prediction Errors"
+      },
+      {
+        "id": "sec5dot2dot1-diagnostics-16-00666",
+        "title": "5.2.1. Huber Loss"
+      },
+      {
+        "id": "sec5dot2dot2-diagnostics-16-00666",
+        "title": "5.2.2. Entropy-Based Loss Functions"
+      },
+      {
+        "id": "sec5dot2dot3-diagnostics-16-00666",
+        "title": "5.2.3. Kullback–Leibler Divergence"
+      },
+      {
+        "id": "sec5dot3-diagnostics-16-00666",
+        "title": "5.3. Predicted Correlation"
+      },
+      {
+        "id": "sec5dot3dot1-diagnostics-16-00666",
+        "title": "5.3.1. Pearson Correlation"
+      },
+      {
+        "id": "sec5dot3dot2-diagnostics-16-00666",
+        "title": "5.3.2. Spearman’s Rank Correlation"
+      },
+      {
+        "id": "sec5dot3dot3-diagnostics-16-00666",
+        "title": "5.3.3. Kendall’s Tau Correlation"
+      },
+      {
+        "id": "sec5dot4-diagnostics-16-00666",
+        "title": "5.4. Balanced Accuracy"
+      },
+      {
+        "id": "sec5dot5-diagnostics-16-00666",
+        "title": "5.5. Jaccard Index"
+      },
+      {
+        "id": "sec5dot6-diagnostics-16-00666",
+        "title": "5.6. Weighted Discrete Elements"
+      },
+      {
+        "id": "sec5dot7-diagnostics-16-00666",
+        "title": "5.7. Addition-Based Multiset Jaccard Index"
+      },
+      {
+        "id": "sec5dot8-diagnostics-16-00666",
+        "title": "5.8. Continuous Sets"
+      },
+      {
+        "id": "sec5dot9-diagnostics-16-00666",
+        "title": "5.9. Comparison and Practical Differences Across Categories"
+      },
+      {
+        "id": "sec5dot10-diagnostics-16-00666",
+        "title": "5.10. Matthews Correlation Coefficient (MCC)"
+      },
+      {
+        "id": "sec5dot11-diagnostics-16-00666",
+        "title": "5.11. Hinge Loss"
+      },
+      {
+        "id": "sec5dot12-diagnostics-16-00666",
+        "title": "5.12. Cohen’s Kappa"
+      },
+      {
+        "id": "sec6-diagnostics-16-00666",
+        "title": "6. Cross-Validation"
+      },
+      {
+        "id": "sec6dot1-diagnostics-16-00666",
+        "title": "6.1. Hold-Out Cross-Validation"
+      },
+      {
+        "id": "sec6dot2-diagnostics-16-00666",
+        "title": "6.2. K-Fold Cross-Validation"
+      },
+      {
+        "id": "sec6dot3-diagnostics-16-00666",
+        "title": "6.3. Leave-One-Out Cross-Validation (LOOCV)"
+      },
+      {
+        "id": "sec6dot4-diagnostics-16-00666",
+        "title": "6.4. Leave-P-Out Cross-Validation (LPOCV)"
+      },
+      {
+        "id": "sec6dot5-diagnostics-16-00666",
+        "title": "6.5. Monte Carlo Cross-Validation"
+      },
+      {
+        "id": "sec6dot6-diagnostics-16-00666",
+        "title": "6.6. Time-Series Cross-Validation"
+      },
+      {
+        "id": "sec6dot7-diagnostics-16-00666",
+        "title": "6.7. Stratification Cross-Validation"
+      },
+      {
+        "id": "sec6dot8-diagnostics-16-00666",
+        "title": "6.8. Grouped Cross-Validation"
+      },
+      {
+        "id": "sec7-diagnostics-16-00666",
+        "title": "7. Computational Complexity"
+      },
+      {
+        "id": "sec7dot1-diagnostics-16-00666",
+        "title": "7.1. Classification Latency"
+      },
+      {
+        "id": "sec7dot2-diagnostics-16-00666",
+        "title": "7.2. Classification Throughput"
+      },
+      {
+        "id": "sec7dot3-diagnostics-16-00666",
+        "title": "7.3. Classification Efficiency"
+      },
+      {
+        "id": "sec7dot4-diagnostics-16-00666",
+        "title": "7.4. Energy Consumption"
+      },
+      {
+        "id": "sec8-diagnostics-16-00666",
+        "title": "8. Statistical Tests of Significance"
+      },
+      {
+        "id": "sec8dot1-diagnostics-16-00666",
+        "title": "8.1. Paired Student’s t-Test"
+      },
+      {
+        "id": "sec8dot2-diagnostics-16-00666",
+        "title": "8.2. Analysis of Variance (ANOVA)"
+      },
+      {
+        "id": "sec8dot3-diagnostics-16-00666",
+        "title": "8.3. Mann–Whitney U Test"
+      },
+      {
+        "id": "sec8dot4-diagnostics-16-00666",
+        "title": "8.4. Kruskal–Wallis Test"
+      },
+      {
+        "id": "sec8dot5-diagnostics-16-00666",
+        "title": "8.5. Chi-Squared Test"
+      },
+      {
+        "id": "sec8dot6-diagnostics-16-00666",
+        "title": "8.6. Wilcoxon Signed-Rank Test"
+      },
+      {
+        "id": "sec8dot7-diagnostics-16-00666",
+        "title": "8.7. Fisher’s Exact Test"
+      },
+      {
+        "id": "sec8dot8-diagnostics-16-00666",
+        "title": "8.8. Central Limit Theorem (CLT)"
+      },
+      {
+        "id": "sec8dot9-diagnostics-16-00666",
+        "title": "8.9. McNemar Test"
+      },
+      {
+        "id": "sec8dot10-diagnostics-16-00666",
+        "title": "8.10. Adjusted t-Test"
+      },
+      {
+        "id": "sec8dot11-diagnostics-16-00666",
+        "title": "8.11. Accommodating Multiple Comparisons"
+      },
+      {
+        "id": "sec9-diagnostics-16-00666",
+        "title": "9. Clinical Requirements for Diagnostic AI Evaluation"
+      },
+      {
+        "id": "sec9dot1-diagnostics-16-00666",
+        "title": "9.1. Clinical Validity"
+      },
+      {
+        "id": "sec9dot2-diagnostics-16-00666",
+        "title": "9.2. Generalizability and Robustness"
+      },
+      {
+        "id": "sec9dot3-diagnostics-16-00666",
+        "title": "9.3. Statistical Significance and Reproducible Evidence"
+      },
+      {
+        "id": "sec9dot4-diagnostics-16-00666",
+        "title": "9.4. Prospective Evaluation and Real-World Clinical Utility"
+      },
+      {
+        "id": "sec9dot5-diagnostics-16-00666",
+        "title": "9.5. External Validity Across Sites and Multicenter Evidence"
+      },
+      {
+        "id": "sec9dot6-diagnostics-16-00666",
+        "title": "9.6. Reference Standard Uncertainty and Ground Truth Reliability"
+      },
+      {
+        "id": "sec9dot7-diagnostics-16-00666",
+        "title": "9.7. Dataset Shift Surveillance and Post-Deployment Monitoring"
+      },
+      {
+        "id": "sec9dot8-diagnostics-16-00666",
+        "title": "9.8. Clinical Risk Management and Safety-Driven Evidence Packaging"
+      },
+      {
+        "id": "sec9dot9-diagnostics-16-00666",
+        "title": "9.9. Transparent Clinical Reporting and Reproducibility Standards"
+      },
+      {
+        "id": "sec9dot10-diagnostics-16-00666",
+        "title": "9.10. Deployment Readiness, Cybersecurity, and Human Oversight"
+      },
+      {
+        "id": "sec9dot11-diagnostics-16-00666",
+        "title": "9.11. Clinical Evaluation as a Lifecycle Evidence Pipeline (TRIAGE-Aligned)"
+      },
+      {
+        "id": "sec10-diagnostics-16-00666",
+        "title": "10. Conclusions"
+      }
+    ]
+  },
+  "P038": {
+    "pmcid": "PMC13514685",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13514685/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1-jimaging-12-00344",
+        "title": "1. Introduction"
+      },
+      {
+        "id": "sec2-jimaging-12-00344",
+        "title": "2. Related Work"
+      },
+      {
+        "id": "sec3-jimaging-12-00344",
+        "title": "3. Methodology"
+      },
+      {
+        "id": "sec3dot1-jimaging-12-00344",
+        "title": "3.1. Dataset and Preprocessing"
+      },
+      {
+        "id": "sec3dot2-jimaging-12-00344",
+        "title": "3.2. Model Design"
+      },
+      {
+        "id": "sec6",
+        "title": "Implementation Details"
+      },
+      {
+        "id": "sec3dot3-jimaging-12-00344",
+        "title": "3.3. Evaluation Metrics"
+      },
+      {
+        "id": "sec4-jimaging-12-00344",
+        "title": "4. Algorithm"
+      },
+      {
+        "id": "sec9",
+        "title": "Cross-Validation Strategy"
+      },
+      {
+        "id": "sec5-jimaging-12-00344",
+        "title": "5. Performance Evaluation"
+      },
+      {
+        "id": "sec5dot1-jimaging-12-00344",
+        "title": "5.1. Evaluation for the Model on BloodMNIST Dataset"
+      },
+      {
+        "id": "sec5dot2-jimaging-12-00344",
+        "title": "5.2. Evaluation for the Model on ROP Dataset"
+      },
+      {
+        "id": "sec6-jimaging-12-00344",
+        "title": "6. Result Analysis"
+      },
+      {
+        "id": "sec7-jimaging-12-00344",
+        "title": "7. Discussion"
+      },
+      {
+        "id": "sec8-jimaging-12-00344",
+        "title": "8. Conclusions and Future Scope"
+      },
+      {
+        "id": "ack1",
+        "title": "Acknowledgments"
+      },
+      {
+        "id": "notes1",
+        "title": "Author Contributions"
+      },
+      {
+        "id": "notes2",
+        "title": "Institutional Review Board Statement"
+      },
+      {
+        "id": "notes3",
+        "title": "Informed Consent Statement"
+      },
+      {
+        "id": "notes4",
+        "title": "Data Availability Statement"
+      },
+      {
+        "id": "notes5",
+        "title": "Conflicts of Interest"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P039": {
+    "pmcid": "PMC13079346",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13079346/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "sec3",
+        "title": "Dataset details"
+      },
+      {
+        "id": "sec4",
+        "title": "Pretraining datasets"
+      },
+      {
+        "id": "sec5",
+        "title": "National Alzheimer’s Coordinating Center"
+      },
+      {
+        "id": "sec6",
+        "title": "Alzheimer’s Disease Neuroimaging Initiative"
+      },
+      {
+        "id": "sec7",
+        "title": "Open Access Series of Imaging Studies"
+      },
+      {
+        "id": "sec8",
+        "title": "RadImageNet"
+      },
+      {
+        "id": "sec9",
+        "title": "FastMRI"
+      },
+      {
+        "id": "sec10",
+        "title": "Fine-tuning dataset"
+      },
+      {
+        "id": "sec11",
+        "title": "Sequence detection dataset"
+      },
+      {
+        "id": "sec12",
+        "title": "Skull stripping dataset"
+      },
+      {
+        "id": "sec13",
+        "title": "Neurofeedback skull-stripped repository"
+      },
+      {
+        "id": "sec14",
+        "title": "SynthStrip"
+      },
+      {
+        "id": "sec15",
+        "title": "Multi-class anatomical segmentation dataset"
+      },
+      {
+        "id": "sec16",
+        "title": "MRBrainS18"
+      },
+      {
+        "id": "sec161",
+        "title": "NACC"
+      },
+      {
+        "id": "sec17",
+        "title": "MAE pretraining"
+      },
+      {
+        "id": "sec18",
+        "title": "Direct classification"
+      },
+      {
+        "id": "sec19",
+        "title": "Segmentation with fused embedding"
+      },
+      {
+        "id": "sec20",
+        "title": "MAE fusion architecture"
+      },
+      {
+        "id": "sec21",
+        "title": "Hybrid loss function"
+      },
+      {
+        "id": "sec22",
+        "title": "Evaluation metrics"
+      },
+      {
+        "id": "sec23",
+        "title": "Sequence detection metrics"
+      },
+      {
+        "id": "sec24",
+        "title": "Skull stripping and anatomical segmentation metrics"
+      },
+      {
+        "id": "sec25",
+        "title": "Results"
+      },
+      {
+        "id": "sec26",
+        "title": "Sequence detection"
+      },
+      {
+        "id": "sec27",
+        "title": "Skull stripping"
+      },
+      {
+        "id": "sec28",
+        "title": "Multi-class anatomical segmentation"
+      },
+      {
+        "id": "sec29",
+        "title": "Ablation study"
+      },
+      {
+        "id": "sec30",
+        "title": "Discussion"
+      }
+    ]
+  },
+  "P040": {
+    "pmcid": "PMC13108806",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13108806/fullTextXML",
+    "sections": [
+      {
+        "id": "sec001",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec002",
+        "title": "Related work"
+      },
+      {
+        "id": "sec003",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "sec004",
+        "title": "CMAP-Fusion model design"
+      },
+      {
+        "id": "sec005",
+        "title": "ViT-B/16 image feature encoding and alignment."
+      },
+      {
+        "id": "sec006",
+        "title": "SmartTrim redundant feature selection and pruning."
+      },
+      {
+        "id": "sec007",
+        "title": "CMT fusion and task prediction."
+      },
+      {
+        "id": "sec008",
+        "title": "Experimental data"
+      },
+      {
+        "id": "sec009",
+        "title": "Environment and parameters"
+      },
+      {
+        "id": "sec010",
+        "title": "Metrics"
+      },
+      {
+        "id": "sec011",
+        "title": "Ethics statement"
+      },
+      {
+        "id": "sec012",
+        "title": "Results and analysis"
+      },
+      {
+        "id": "sec013",
+        "title": "Preprocessing results"
+      },
+      {
+        "id": "sec014",
+        "title": "Comparative experiments"
+      },
+      {
+        "id": "sec015",
+        "title": "Ablation study"
+      },
+      {
+        "id": "sec016",
+        "title": "Visualization results"
+      },
+      {
+        "id": "sec017",
+        "title": "Robustness validation"
+      },
+      {
+        "id": "sec018",
+        "title": "Efficiency testing"
+      },
+      {
+        "id": "sec019",
+        "title": "Discussion and conclusion"
+      },
+      {
+        "id": "notes1",
+        "title": "Data Availability"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P041": {
+    "pmcid": "PMC12578905",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12578905/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "Sec2",
+        "title": "Related work and background"
+      },
+      {
+        "id": "Sec3",
+        "title": "Deep learning approaches in medical imaging"
+      },
+      {
+        "id": "Sec4",
+        "title": "Vision transformers for brain tumor classification"
+      },
+      {
+        "id": "Sec5",
+        "title": "Attention mechanisms in brain tumor classification"
+      },
+      {
+        "id": "Sec6",
+        "title": "Advanced architectures and hybrid models"
+      },
+      {
+        "id": "Sec7",
+        "title": "Critical analysis of CNN-to-ViT transition in medical imaging"
+      },
+      {
+        "id": "Sec8",
+        "title": "Architectural synergy: bridging CNN and transformer frameworks"
+      },
+      {
+        "id": "Sec9",
+        "title": "Materials and methods"
+      },
+      {
+        "id": "Sec10",
+        "title": "Dataset description and preprocessing"
+      },
+      {
+        "id": "Sec11",
+        "title": "Proposed novel vision transformer architecture"
+      },
+      {
+        "id": "Sec12",
+        "title": "Multi-resolution patch embedding strategy"
+      },
+      {
+        "id": "Sec13",
+        "title": "Hierarchical multi-scale attention (HMSA) mechanism"
+      },
+      {
+        "id": "Sec14",
+        "title": "Justification of scale factors"
+      },
+      {
+        "id": "Sec15",
+        "title": "Computationally optimized transformer blocks"
+      },
+      {
+        "id": "Sec16",
+        "title": "Probabilistic calibration classification head"
+      },
+      {
+        "id": "Sec17",
+        "title": "Training methodology"
+      },
+      {
+        "id": "Sec18",
+        "title": "Three-phase progressive training strategy"
+      },
+      {
+        "id": "Sec19",
+        "title": "Domain-specific data augmentation"
+      },
+      {
+        "id": "Sec20",
+        "title": "Multi-component loss function"
+      },
+      {
+        "id": "Sec21",
+        "title": "Experimental results and analysis"
+      },
+      {
+        "id": "Sec22",
+        "title": "Classification performance evaluation"
+      },
+      {
+        "id": "Sec23",
+        "title": "Per-class performance analysis"
+      },
+      {
+        "id": "Sec24",
+        "title": "Training dynamics and computational efficiency"
+      },
+      {
+        "id": "Sec25",
+        "title": "Comparison with hybrid CNN-transformer architectures"
+      },
+      {
+        "id": "Sec26",
+        "title": "Experimental setup for hybrid comparison"
+      },
+      {
+        "id": "Sec27",
+        "title": "Hybrid architecture performance results"
+      },
+      {
+        "id": "Sec28",
+        "title": "Training dynamics analysis"
+      },
+      {
+        "id": "Sec29",
+        "title": "Ablation study"
+      },
+      {
+        "id": "Sec30",
+        "title": "Attention visualization and interpretability"
+      },
+      {
+        "id": "Sec31",
+        "title": "Confidence calibration analysis"
+      },
+      {
+        "id": "Sec32",
+        "title": "Discussion and methodological significance"
+      },
+      {
+        "id": "Sec33",
+        "title": "Superior classification performance"
+      },
+      {
+        "id": "Sec34",
+        "title": "Dataset scale and model generalizability"
+      },
+      {
+        "id": "Sec35",
+        "title": "Computational efficiency and practical deployment"
+      },
+      {
+        "id": "Sec36",
+        "title": "Hybrid CNN-transformer architecture analysis"
+      },
+      {
+        "id": "Sec37",
+        "title": "Architectural advantages over hybrid approaches"
+      },
+      {
+        "id": "Sec38",
+        "title": "Performance and efficiency analysis"
+      },
+      {
+        "id": "Sec39",
+        "title": "Architectural design insights"
+      },
+      {
+        "id": "Sec40",
+        "title": "Comparative analysis with existing literature"
+      },
+      {
+        "id": "Sec41",
+        "title": "Conclusions and future directions"
+      },
+      {
+        "id": "glossary1",
+        "title": "Abbreviations"
+      },
+      {
+        "id": "notes1",
+        "title": "Author contributions"
+      },
+      {
+        "id": "notes2",
+        "title": "Funding"
+      },
+      {
+        "id": "notes3",
+        "title": "Data Availability"
+      },
+      {
+        "id": "notes4",
+        "title": "Declarations"
+      },
+      {
+        "id": "FPar1",
+        "title": "Ethics approval and consent to participate"
+      },
+      {
+        "id": "FPar2",
+        "title": "Consent for publication"
+      },
+      {
+        "id": "FPar3",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "FPar4",
+        "title": "Materials availability"
+      },
+      {
+        "id": "FPar5",
+        "title": "Code availability"
+      },
+      {
+        "id": "FPar6",
+        "title": "Competing interests"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "Bib1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P042": {
+    "pmcid": "PMC12832282",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12832282/fullTextXML",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Introduction"
+      },
+      {
+        "id": "s2",
+        "title": "Related work"
+      },
+      {
+        "id": "sec3",
+        "title": "Evolution of AI approaches"
+      },
+      {
+        "id": "sec4",
+        "title": "Imaging modality analysis"
+      },
+      {
+        "id": "sec5",
+        "title": "Performance comparison across studies"
+      },
+      {
+        "id": "sec6",
+        "title": "Dataset scale and validation challenges"
+      },
+      {
+        "id": "sec7",
+        "title": "Current gaps and limitations"
+      },
+      {
+        "id": "s3",
+        "title": "Methodology"
+      },
+      {
+        "id": "sec9",
+        "title": "Dataset"
+      },
+      {
+        "id": "sec10",
+        "title": "Preprocessing"
+      },
+      {
+        "id": "sec11",
+        "title": "Overview of the proposed approach"
+      },
+      {
+        "id": "sec12",
+        "title": "ResNet50"
+      },
+      {
+        "id": "sec13",
+        "title": "MobileNetV2"
+      },
+      {
+        "id": "sec14",
+        "title": "DenseNet121"
+      },
+      {
+        "id": "sec15",
+        "title": "CNN_LSTM"
+      },
+      {
+        "id": "sec16",
+        "title": "Swin transformer"
+      },
+      {
+        "id": "sec17",
+        "title": "Transfer learning strategy"
+      },
+      {
+        "id": "sec18",
+        "title": "Loss functions"
+      },
+      {
+        "id": "sec19",
+        "title": "Cross-entropy loss"
+      },
+      {
+        "id": "sec20",
+        "title": "Focal loss"
+      },
+      {
+        "id": "sec21",
+        "title": "Model evaluation and selection"
+      },
+      {
+        "id": "sec22",
+        "title": "Ensemble learning methodology (weighted soft voting)"
+      },
+      {
+        "id": "sec23",
+        "title": "Rationale for CNN-transformer ensemble"
+      },
+      {
+        "id": "sec24",
+        "title": "Performance evaluation methods"
+      },
+      {
+        "id": "s4",
+        "title": "Results and discussion"
+      },
+      {
+        "id": "sec26",
+        "title": "Implementation details and hyperparameter selection"
+      },
+      {
+        "id": "sec27",
+        "title": "Results analysis"
+      },
+      {
+        "id": "sec28",
+        "title": "Statistical significance of ensemble performance"
+      },
+      {
+        "id": "sec29",
+        "title": "Friedman test for model ranking"
+      },
+      {
+        "id": "sec30",
+        "title": "Wilcoxon signed-rank test for ensemble validation"
+      },
+      {
+        "id": "sec31",
+        "title": "Comparative analysis with related work and discussion"
+      },
+      {
+        "id": "sec32",
+        "title": "Performance Comparison with Radiomics and Traditional Machine Learning Studies"
+      },
+      {
+        "id": "sec33",
+        "title": "Comparison with advanced deep learning and hybrid approaches"
+      },
+      {
+        "id": "sec34",
+        "title": "Novel methodological approaches and clinical biomarker models"
+      },
+      {
+        "id": "sec35",
+        "title": "Meta-analysis validation and statistical rigor"
+      },
+      {
+        "id": "sec36",
+        "title": "Clinical impact and translation potential"
+      },
+      {
+        "id": "sec37",
+        "title": "Limitation"
+      },
+      {
+        "id": "s5",
+        "title": "Conclusion"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "fn-group1",
+        "title": "Footnotes"
+      },
+      {
+        "id": "s6",
+        "title": "Data availability statement"
+      },
+      {
+        "id": "s7",
+        "title": "Ethics statement"
+      },
+      {
+        "id": "s8",
+        "title": "Author contributions"
+      },
+      {
+        "id": "conf1",
+        "title": "Conflict of interest"
+      },
+      {
+        "id": "s10",
+        "title": "Generative AI statement"
+      },
+      {
+        "id": "s11",
+        "title": "Publisher's note"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_ad93_",
+        "title": "Associated Data"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P043": {
+    "pmcid": "PMC12816720",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12816720/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "Sec2",
+        "title": "Related work"
+      },
+      {
+        "id": "Sec3",
+        "title": "Identified gaps"
+      },
+      {
+        "id": "Sec4",
+        "title": "PRISMA analysis of literature selection"
+      },
+      {
+        "id": "Sec5",
+        "title": "Proposed system model"
+      },
+      {
+        "id": "Sec6",
+        "title": "Dataset details and description"
+      },
+      {
+        "id": "Sec7",
+        "title": "Preprocessing of data"
+      },
+      {
+        "id": "Sec8",
+        "title": "Data balancing and feature enhancement"
+      },
+      {
+        "id": "Sec9",
+        "title": "Data balancing using proportional replication"
+      },
+      {
+        "id": "Sec10",
+        "title": "Feature selection using hybrid weighted filters"
+      },
+      {
+        "id": "Sec11",
+        "title": "Feature creation using composite interaction models"
+      },
+      {
+        "id": "Sec12",
+        "title": "Feature transformation using multivariate polynomial expansion"
+      },
+      {
+        "id": "Sec13",
+        "title": "Classification using federated learning with RegNetZ and Swin-Transformer"
+      },
+      {
+        "id": "Sec14",
+        "title": "Federated learning framework for privacy-preserving classification"
+      },
+      {
+        "id": "Sec15",
+        "title": "RegNetZ for local feature extraction"
+      },
+      {
+        "id": "Sec16",
+        "title": "Swin-Transformer for global feature refinement"
+      },
+      {
+        "id": "Sec17",
+        "title": "Final classification layer"
+      },
+      {
+        "id": "Sec18",
+        "title": "Local loss function and federated training"
+      },
+      {
+        "id": "Sec19",
+        "title": "Multimodal fusion strategy"
+      },
+      {
+        "id": "Sec20",
+        "title": "Tuning of parameters using hybrid metaheuristic algorithm"
+      },
+      {
+        "id": "Sec21",
+        "title": "Performance evaluation metrics"
+      },
+      {
+        "id": "Sec22",
+        "title": "Simulation results and discussion"
+      },
+      {
+        "id": "Sec23",
+        "title": "Conclusion and future scope"
+      }
+    ]
+  },
+  "P044": {
+    "pmcid": "PMC12912285",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12912285/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec2",
+        "title": "Related Work"
+      },
+      {
+        "id": "sec3",
+        "title": "Method"
+      },
+      {
+        "id": "sec3.1",
+        "title": "Perform Simulated Quantization on ONNX"
+      },
+      {
+        "id": "sec3.1.1",
+        "title": "Simulation of INT8 quantization with ModelOpt"
+      },
+      {
+        "id": "sec3.2",
+        "title": "Converting to Real Quantization Using NVIDIA TensorRT"
+      },
+      {
+        "id": "sec3.2.1",
+        "title": "Building the TensorRT engine"
+      },
+      {
+        "id": "sec4",
+        "title": "Experiments and Results"
+      },
+      {
+        "id": "sec4.1",
+        "title": "Dataset"
+      },
+      {
+        "id": "sec4.2",
+        "title": "Implementation Details"
+      },
+      {
+        "id": "sec4.3",
+        "title": "Quantization Results of Segmentation Models"
+      },
+      {
+        "id": "sec4.4",
+        "title": "Impact of Quantization on Small Structures"
+      },
+      {
+        "id": "sec4.5",
+        "title": "Scaling Analysis"
+      },
+      {
+        "id": "sec5",
+        "title": "Discussion"
+      },
+      {
+        "id": "sec5.1",
+        "title": "Robustness Across Models and Datasets"
+      },
+      {
+        "id": "sec5.2",
+        "title": "GPU Memory and Quantization"
+      },
+      {
+        "id": "sec5.3",
+        "title": "Clinical Applications"
+      },
+      {
+        "id": "sec5.4",
+        "title": "Potential Limitations and Future Work"
+      },
+      {
+        "id": "sec6",
+        "title": "Conclusion"
+      }
+    ]
+  },
+  "P045": {
+    "pmcid": "PMC12058152",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12058152/fullTextXML",
+    "sections": [
+      {
+        "id": "sec001",
+        "title": "1. Introduction"
+      },
+      {
+        "id": "sec002",
+        "title": "2. Related works"
+      },
+      {
+        "id": "sec003",
+        "title": "2.1 Challenges in CXR image recognition"
+      },
+      {
+        "id": "sec004",
+        "title": "2.2 Progress of AI in CXR image recognition"
+      },
+      {
+        "id": "sec005",
+        "title": "2.3 DETR in CXR image recognition"
+      },
+      {
+        "id": "sec006",
+        "title": "3. Methodology"
+      },
+      {
+        "id": "sec007",
+        "title": "3.1 Technology program"
+      },
+      {
+        "id": "sec008",
+        "title": "● Selection of backbone."
+      },
+      {
+        "id": "sec009",
+        "title": "● Multi-scale feature fusion."
+      },
+      {
+        "id": "sec010",
+        "title": "● Feature enhancement module."
+      },
+      {
+        "id": "sec011",
+        "title": "● Optimization for small object detection."
+      },
+      {
+        "id": "sec012",
+        "title": "3.2 Workflow of the CD-DETR model"
+      },
+      {
+        "id": "sec013",
+        "title": "● Input CXR image."
+      },
+      {
+        "id": "sec014",
+        "title": "● Feature extraction using ResNet-50."
+      },
+      {
+        "id": "sec015",
+        "title": "● Multi-Scale feature extraction."
+      },
+      {
+        "id": "sec016",
+        "title": "● Encoder module of the DETR model."
+      },
+      {
+        "id": "sec017",
+        "title": "● Enhancing feature representation using ECA-Net."
+      },
+      {
+        "id": "sec018",
+        "title": "● Feature fusion."
+      },
+      {
+        "id": "sec019",
+        "title": "● CDIoU loss for small object detection."
+      },
+      {
+        "id": "sec020",
+        "title": "● Decoder output – object detection results."
+      },
+      {
+        "id": "sec021",
+        "title": "4. Experiment"
+      },
+      {
+        "id": "sec022",
+        "title": "4.1 Dataset"
+      },
+      {
+        "id": "sec023",
+        "title": "● NIH Chest X-ray dataset."
+      },
+      {
+        "id": "sec024",
+        "title": "● VinBigData dataset."
+      },
+      {
+        "id": "sec025",
+        "title": "4.2 Training setup"
+      },
+      {
+        "id": "sec026",
+        "title": "4.3 Evaluation indicators"
+      },
+      {
+        "id": "sec027",
+        "title": "4.4 Experimental result"
+      },
+      {
+        "id": "sec028",
+        "title": "4.5 Generalization study"
+      },
+      {
+        "id": "sec029",
+        "title": "5. Discussion"
+      },
+      {
+        "id": "sec030",
+        "title": "5.1 Theoretical and practical contributions"
+      },
+      {
+        "id": "sec031",
+        "title": "5.2 Limitations and prospects"
+      },
+      {
+        "id": "sec032",
+        "title": "6. Conclusion"
+      },
+      {
+        "id": "notes1",
+        "title": "Data Availability"
+      },
+      {
+        "id": "funding-statement1",
+        "title": "Funding Statement"
+      },
+      {
+        "id": "ref-list1",
+        "title": "References"
+      },
+      {
+        "id": "_adsm93_",
+        "title": "Supplementary Materials"
+      },
+      {
+        "id": "_adda93_",
+        "title": "Data Availability Statement"
+      }
+    ]
+  },
+  "P046": {
+    "pmcid": "PMC11679900",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11679900/fullTextXML",
+    "sections": [
+      {
+        "id": "sec1-tomography-10-00146",
+        "title": "1. Introduction"
+      },
+      {
+        "id": "sec2-tomography-10-00146",
+        "title": "2. Materials and Methods"
+      },
+      {
+        "id": "sec2dot1-tomography-10-00146",
+        "title": "2.1. Dataset"
+      },
+      {
+        "id": "sec2dot2-tomography-10-00146",
+        "title": "2.2. Models"
+      },
+      {
+        "id": "sec2dot3-tomography-10-00146",
+        "title": "2.3. Evaluation"
+      },
+      {
+        "id": "sec3-tomography-10-00146",
+        "title": "3. Results"
+      },
+      {
+        "id": "sec3dot1-tomography-10-00146",
+        "title": "3.1. Comparison of Performance of CNNs and ViTs"
+      },
+      {
+        "id": "sec3dot2-tomography-10-00146",
+        "title": "3.2. Visualization of Heatmaps"
+      },
+      {
+        "id": "sec3dot3-tomography-10-00146",
+        "title": "3.3. Performance of Models in Different Age Groups"
+      },
+      {
+        "id": "sec3dot4-tomography-10-00146",
+        "title": "3.4. Training Techniques for Ensemble Models"
+      },
+      {
+        "id": "sec3dot5-tomography-10-00146",
+        "title": "3.5. Robustness of Models over Bad Examples"
+      },
+      {
+        "id": "sec3dot6-tomography-10-00146",
+        "title": "3.6. Sensitivity to Demographic Label Perturbation"
+      },
+      {
+        "id": "sec4-tomography-10-00146",
+        "title": "4. Discussion"
+      },
+      {
+        "id": "sec4dot1-tomography-10-00146",
+        "title": "4.1. Model Comparison"
+      },
+      {
+        "id": "sec4dot2-tomography-10-00146",
+        "title": "4.2. Limitations"
+      },
+      {
+        "id": "sec4dot3-tomography-10-00146",
+        "title": "4.3. Clinical Implementation"
+      },
+      {
+        "id": "sec4dot4-tomography-10-00146",
+        "title": "4.4. Impact of Demographic Label Integrity"
+      },
+      {
+        "id": "sec5-tomography-10-00146",
+        "title": "5. Conclusions"
+      }
+    ]
+  },
+  "P047": {
+    "pmcid": "PMC11883007",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11883007/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "Sec2",
+        "title": "Experiments and results"
+      },
+      {
+        "id": "Sec3",
+        "title": "Datasets"
+      },
+      {
+        "id": "Sec4",
+        "title": "Benchmark evaluation"
+      },
+      {
+        "id": "Sec5",
+        "title": "Input resolution impact"
+      },
+      {
+        "id": "Sec6",
+        "title": "Model ranking"
+      },
+      {
+        "id": "Sec7",
+        "title": "Quantitative evaluation"
+      },
+      {
+        "id": "Sec8",
+        "title": "Discussion and conclusion"
+      },
+      {
+        "id": "Sec9",
+        "title": "Method"
+      },
+      {
+        "id": "Sec10",
+        "title": "Model selection"
+      },
+      {
+        "id": "Sec11",
+        "title": "Training pipeline"
+      },
+      {
+        "id": "Sec12",
+        "title": "Loss criterion and evaluation metrics"
+      },
+      {
+        "id": "Sec13",
+        "title": "Supplementary Information"
+      }
+    ]
+  },
+  "P048": {
+    "pmcid": "PMC10827725",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10827725/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Introduction"
+      },
+      {
+        "id": "Sec2",
+        "title": "Motivation"
+      },
+      {
+        "id": "Sec3",
+        "title": "Organization of the paper"
+      },
+      {
+        "id": "Sec4",
+        "title": "Background and methodology"
+      },
+      {
+        "id": "Sec5",
+        "title": "Transformer architecture"
+      },
+      {
+        "id": "Sec6",
+        "title": "Vision transformer derived from generic transformer architecture"
+      },
+      {
+        "id": "Sec7",
+        "title": "Working principle of Vision Transformer"
+      },
+      {
+        "id": "Sec8",
+        "title": "Self-attention mechanism in Vision Transformer for image detection and classification"
+      },
+      {
+        "id": "Sec9",
+        "title": "Self attention techniques"
+      },
+      {
+        "id": "Sec10",
+        "title": "Spatial attention networks"
+      },
+      {
+        "id": "Sec11",
+        "title": "Channel attention"
+      },
+      {
+        "id": "Sec12",
+        "title": "Variants of Vision Transformer"
+      },
+      {
+        "id": "Sec13",
+        "title": "Patch size"
+      },
+      {
+        "id": "Sec14",
+        "title": "Positional encoding"
+      },
+      {
+        "id": "Sec15",
+        "title": "Architectural variations"
+      },
+      {
+        "id": "Sec16",
+        "title": "Training methods"
+      },
+      {
+        "id": "Sec17",
+        "title": "Hybrid models"
+      },
+      {
+        "id": "Sec18",
+        "title": "Attention mechanism"
+      },
+      {
+        "id": "Sec19",
+        "title": "DeiT (data-efficient image transformers)"
+      },
+      {
+        "id": "Sec20",
+        "title": "Swin-T"
+      },
+      {
+        "id": "Sec21",
+        "title": "ReViT"
+      },
+      {
+        "id": "Sec22",
+        "title": "Recent applications of Vision Transformer architecture"
+      },
+      {
+        "id": "Sec23",
+        "title": "Object detection and instance segmentation"
+      },
+      {
+        "id": "Sec24",
+        "title": "Dense predictions"
+      },
+      {
+        "id": "Sec25",
+        "title": "Self-supervised learning"
+      },
+      {
+        "id": "Sec26",
+        "title": "Multi-modal learning"
+      },
+      {
+        "id": "Sec27",
+        "title": "Efficient ViT architectures"
+      },
+      {
+        "id": "Sec28",
+        "title": "Explainable AI"
+      },
+      {
+        "id": "Sec29",
+        "title": "Material and methods"
+      },
+      {
+        "id": "Sec30",
+        "title": "Dataset characteristics"
+      },
+      {
+        "id": "Sec31",
+        "title": "Proposed architecture"
+      },
+      {
+        "id": "Sec32",
+        "title": "Input embedding"
+      },
+      {
+        "id": "Sec33",
+        "title": "Positional encoding"
+      },
+      {
+        "id": "Sec34",
+        "title": "Transformer encoder"
+      },
+      {
+        "id": "Sec35",
+        "title": "Classification layer"
+      },
+      {
+        "id": "Sec36",
+        "title": "Loss function"
+      },
+      {
+        "id": "Sec37",
+        "title": "Ethical standards"
+      },
+      {
+        "id": "Sec38",
+        "title": "Result and discussions"
+      },
+      {
+        "id": "Sec39",
+        "title": "Performance indicators"
+      },
+      {
+        "id": "Sec40",
+        "title": "Accuracy"
+      },
+      {
+        "id": "Sec41",
+        "title": "Precision"
+      },
+      {
+        "id": "Sec42",
+        "title": "Recall (sensitivity or true positive rate)"
+      },
+      {
+        "id": "Sec43",
+        "title": "F1 Score"
+      },
+      {
+        "id": "Sec44",
+        "title": "ROC curve"
+      },
+      {
+        "id": "Sec45",
+        "title": "Confusion matrix"
+      },
+      {
+        "id": "Sec46",
+        "title": "Model’s training"
+      },
+      {
+        "id": "Sec47",
+        "title": "Performance evaluation"
+      },
+      {
+        "id": "Sec48",
+        "title": "Confidence intervals test"
+      },
+      {
+        "id": "Sec49",
+        "title": "Interpretation"
+      },
+      {
+        "id": "Sec50",
+        "title": "Matthews correlation coefficient (MCC)"
+      },
+      {
+        "id": "Sec51",
+        "title": "Discussion"
+      },
+      {
+        "id": "Sec52",
+        "title": "Research prospects in Vision Transformer"
+      },
+      {
+        "id": "Sec53",
+        "title": "Conclusion"
+      }
+    ]
+  },
+  "P049": {
+    "pmcid": "PMC10850044",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10850044/fullTextXML",
+    "sections": [
+      {
+        "id": "Sec1",
+        "title": "Background"
+      },
+      {
+        "id": "Sec2",
+        "title": "Methods"
+      },
+      {
+        "id": "Sec3",
+        "title": "Patient cohorts"
+      },
+      {
+        "id": "Sec4",
+        "title": "Label generation and parameters"
+      },
+      {
+        "id": "Sec5",
+        "title": "VinDr-CXR"
+      },
+      {
+        "id": "Sec6",
+        "title": "ChextX-ray14"
+      },
+      {
+        "id": "Sec7",
+        "title": "CheXpert"
+      },
+      {
+        "id": "Sec8",
+        "title": "MIMIC-CXR"
+      },
+      {
+        "id": "Sec9",
+        "title": "UKA-CXR"
+      },
+      {
+        "id": "Sec10",
+        "title": "PadChest"
+      },
+      {
+        "id": "Sec11",
+        "title": "Experimental design"
+      },
+      {
+        "id": "Sec12",
+        "title": "Network architecture"
+      },
+      {
+        "id": "Sec13",
+        "title": "Step 1: pretraining"
+      },
+      {
+        "id": "FPar1",
+        "title": "SSL pretraining on non-medical images (DINOv2)"
+      },
+      {
+        "id": "FPar2",
+        "title": "SL pretraining on non-medical images (ImageNet)"
+      },
+      {
+        "id": "FPar3",
+        "title": "SL pretraining on chest radiographs (MIMIC-CXR)"
+      },
+      {
+        "id": "Sec15",
+        "title": "Step 2: fine-tuning (SL training on chest radiographs)"
+      },
+      {
+        "id": "FPar4",
+        "title": "Choice of the training chest radiographs for fine-tuning"
+      },
+      {
+        "id": "FPar5",
+        "title": "Label unification"
+      },
+      {
+        "id": "FPar6",
+        "title": "Standardized image preprocessing"
+      },
+      {
+        "id": "FPar7",
+        "title": "SL training configuration"
+      },
+      {
+        "id": "Sec19",
+        "title": "Step 3: evaluation and statistical analysis"
+      },
+      {
+        "id": "Sec20",
+        "title": "Results"
+      },
+      {
+        "id": "Sec21",
+        "title": "Pretraining with SSL versus SL for medical AI models"
+      },
+      {
+        "id": "Sec22",
+        "title": "SSL pretraining on non-medical images versus SL pretraining on radiographs"
+      },
+      {
+        "id": "Sec23",
+        "title": "Discussion"
+      },
+      {
+        "id": "Sec24",
+        "title": "Supplementary Information"
+      }
+    ]
+  },
+  "P050": {
+    "pmcid": "PMC11152295",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11152295/fullTextXML",
+    "sections": [
+      {
+        "id": "sec001",
+        "title": "Introduction"
+      },
+      {
+        "id": "sec002",
+        "title": "Related works"
+      },
+      {
+        "id": "sec003",
+        "title": "Feature-based methods"
+      },
+      {
+        "id": "sec004",
+        "title": "Deep learning-based methods"
+      },
+      {
+        "id": "sec005",
+        "title": "Traditional CNNs"
+      },
+      {
+        "id": "sec006",
+        "title": "Multi-scale CNNs"
+      },
+      {
+        "id": "sec007",
+        "title": "Vision transformers"
+      },
+      {
+        "id": "sec008",
+        "title": "Hybrid and ensemble methods"
+      },
+      {
+        "id": "sec009",
+        "title": "Method"
+      },
+      {
+        "id": "sec010",
+        "title": "MedViT"
+      },
+      {
+        "id": "sec011",
+        "title": "Efficient convolutional block"
+      },
+      {
+        "id": "sec012",
+        "title": "Locally transformer block"
+      },
+      {
+        "id": "sec013",
+        "title": "Micro MedViT"
+      },
+      {
+        "id": "sec014",
+        "title": "Stitching MedViTs"
+      },
+      {
+        "id": "sec015",
+        "title": "Experiments and results"
+      },
+      {
+        "id": "sec016",
+        "title": "Datasets"
+      },
+      {
+        "id": "sec017",
+        "title": "NEH-v2 dataset"
+      },
+      {
+        "id": "sec018",
+        "title": "UCSD dataset"
+      },
+      {
+        "id": "sec019",
+        "title": "Data augmentation"
+      },
+      {
+        "id": "sec020",
+        "title": "Experimental setup"
+      },
+      {
+        "id": "sec021",
+        "title": "Results"
+      },
+      {
+        "id": "sec022",
+        "title": "Pre-trained models"
+      },
+      {
+        "id": "sec023",
+        "title": "Stitched MedViT"
+      },
+      {
+        "id": "sec024",
+        "title": "Conclusion and future work"
+      },
+      {
+        "id": "sec025",
+        "title": "Supporting information"
+      }
+    ]
+  }
+}
