@@ -4,7 +4,7 @@
 
 A final-year IT **research prototype plan** for studying paired brain MRI and structured clinical information in Alzheimer-related classification. **No application has been implemented or trained.**
 
-**Scope review:** the user has proposed a broader ADNI + MIMIC chest X-ray + cancer framework. The cancer task is **breast lesion benign-versus-malignant classification**, with CMMD mammography as a candidate dataset pending audit (ADR-013). The MIMIC prediction task remains undecided. The [multi-dataset proposal review](docs/architecture/multi_dataset_proposal_review.md) records the design and its unresolved questions; the Alzheimer experiment below remains the current specified baseline.
+**Scope review:** the user has proposed a broader ADNI + MIMIC chest X-ray + cancer framework. The intended tasks are **CU/MCI/dementia** on ADNI (Alzheimer etiology requires extra verification), **pneumonia label present/absent** on MIMIC-CXR (report-derived, not a confirmed diagnosis), and **breast lesion benign/malignant** on CMMD (clinical-feature suitability unresolved). The [multi-dataset proposal review](docs/architecture/multi_dataset_proposal_review.md) records the exact labels and open audits; the Alzheimer experiment below remains the current specified baseline.
 
 ## Problem
 

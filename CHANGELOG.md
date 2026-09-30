@@ -2,6 +2,8 @@
 
 ## 2026-09-30
 
+- Named pneumonia label present-versus-absent as the intended MIMIC-CXR chest task (ADR-014), with report-derived-label and access limits explicit. Clarified the three domain targets; the multi-dataset research phase is incomplete and no model was implemented.
+
 - Selected breast lesion benign-versus-malignant classification as the cancer branch's exact task (ADR-013); CMMD mammography is the candidate dataset pending clinical-feature and resource audit. Multi-dataset architecture remains under review; no application code was written.
 
 - Recorded a user-proposed ADNI/MIMIC/cancer architecture as a pending scope revision (ADR-012). Documented task-specific heads, dataset/label/access gaps and the need for expanded literature review before adopting it. No application code was written.

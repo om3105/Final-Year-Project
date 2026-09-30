@@ -6,7 +6,7 @@
 
 This is a final-year IT research project about paired brain MRI and independent clinical variables for Alzheimer/MCI research classification. The repository contains a 50-paper catalog and completed pre-development specifications with access limits stated. **Application implementation has not started.** Do not infer that documented endpoints or screens already exist. An explicit user instruction to implement is required before writing frontend/backend/model application code.
 
-The user has since proposed a **multi-dataset diagram** with ADNI, MIMIC chest X-ray and cancer. The cancer task is now breast lesion benign-versus-malignant classification, with CMMD mammography as a candidate dataset pending audit (ADR-013). Read [its review](docs/architecture/multi_dataset_proposal_review.md) and ADR-012/013 before treating the full diagram as adopted. The MIMIC endpoint remains undecided; the current single-domain research design remains the operative specification until the scope and evidence are revised.
+The user has since proposed a **multi-dataset diagram** with ADNI, MIMIC chest X-ray and cancer. The intended tasks are ADNI CU/MCI/dementia (Alzheimer etiology not yet verified), MIMIC-CXR pneumonia label present/absent (report-derived), and CMMD breast lesion benign/malignant (clinical-feature suitability unresolved). Read [its review](docs/architecture/multi_dataset_proposal_review.md) and ADR-012 through ADR-014 before treating the full diagram as adopted. The current single-domain research design remains the operative specification until the scope and evidence are revised.
 
 ## Source of truth
 

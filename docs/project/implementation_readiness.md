@@ -2,7 +2,7 @@
 
 **Overall status: preparation complete; restricted-data gates open. Application implementation has not started.** This record prevents a documented plan from being mistaken for an access approval or trained model.
 
-The user's subsequent [ADNI/MIMIC/cancer diagram](../architecture/multi_dataset_proposal_review.md) is a **pending scope expansion**. This record's complete research/design gate applies only to the Alzheimer-domain baseline. The cancer task is selected as breast lesion benign-versus-malignant classification, with CMMD a candidate dataset pending audit; the MIMIC endpoint and both branches' literature/dataset audits are not complete.
+The user's subsequent [ADNI/MIMIC/cancer diagram](../architecture/multi_dataset_proposal_review.md) is a **pending scope expansion**. This record's complete research/design gate applies only to the Alzheimer-domain baseline. The added tasks are pneumonia label prediction (MIMIC-CXR candidate) and breast lesion benign-versus-malignant classification (CMMD candidate); both branches' literature, dataset and feasibility audits are incomplete.
 
 | Gate | Current status | Evidence / next owner |
 |---|---|---|
